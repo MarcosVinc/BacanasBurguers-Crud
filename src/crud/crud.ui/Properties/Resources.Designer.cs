@@ -63,9 +63,49 @@ namespace crud.ui.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_add_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_add_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseline_call_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_call_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_create_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_create_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_delete_outline_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_delete_outline_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_filter_list_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_filter_list_black_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +236,16 @@ namespace crud.ui.Properties {
         internal static System.Drawing.Bitmap baseline_search_white_18dp2 {
             get {
                 object obj = ResourceManager.GetObject("baseline_search_white_18dp2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_search_white_18dp3 {
+            get {
+                object obj = ResourceManager.GetObject("baseline_search_white_18dp3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
