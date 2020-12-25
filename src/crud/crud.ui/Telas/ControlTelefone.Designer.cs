@@ -36,7 +36,7 @@ namespace crud.ui.Telas
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::crud.ui.Properties.Resources.logo;
+            this.pictureBox2.Image = global::crud.ui.Properties.Resources.download;
             this.pictureBox2.Location = new System.Drawing.Point(61, 45);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(722, 591);
