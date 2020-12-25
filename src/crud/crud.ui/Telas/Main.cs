@@ -1,4 +1,5 @@
-﻿using System;
+﻿using crud.ui.Telas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,16 +23,6 @@ namespace crud.ui
 
         }
 
-        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void toolStripContainer1_ContentPanel_Load_1(object sender, EventArgs e)
         {
 
@@ -47,59 +38,34 @@ namespace crud.ui
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            var form2 = new ControlProduto(); // Declara o form2
+            PainelPrincipal.Controls.Add(form2);
 
         }
 
-        private void label3_Click_2(object sender, EventArgs e)
+        private void pictureBox6_Click(object sender, EventArgs e)
         {
-
+            var form3 = new ControlLista();
+            PainelPrincipal.Controls.Add(form3);
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
+            var form4 = new ControlAddClientes();
+            PainelPrincipal.Controls.Add(form4);
+        }
 
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            var form5 = new ControlTelefone();
+            PainelPrincipal.Controls.Add(form5);
         }
     }
 }

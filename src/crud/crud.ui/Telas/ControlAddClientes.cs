@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace crud.ui.Telas
 {
-    public partial class TelaAdicionarClientes : Form
+    public partial class ControlAddClientes : UserControl
     {
-        public TelaAdicionarClientes()
+        public ControlAddClientes()
         {
             InitializeComponent();
         }

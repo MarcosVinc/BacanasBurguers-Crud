@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace crud.ui
+namespace crud.ui.Telas
 {
-    public partial class TelaLista : Form
+    public partial class ControlTelefone : UserControl
     {
-        public TelaLista()
+        public ControlTelefone()
         {
             InitializeComponent();
         }

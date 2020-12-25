@@ -8,4 +8,7 @@ C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.csproj.CoreCompil
 C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.exe
 C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.pdb
 C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.Main.resources
-C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.Telas.Bacana_s_Burguers__Prod.resources
+C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.Telas.ControlProduto.resources
+C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.Telas.ControlLista.resources
+C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.Telas.ControlAddClientes.resources
+C:\Users\Marcos\source\CRUD\src\crud\crud.ui\obj\Debug\crud.ui.Telas.ControlTelefone.resources

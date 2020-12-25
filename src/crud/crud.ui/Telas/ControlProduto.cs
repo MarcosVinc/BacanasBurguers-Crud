@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace crud.ui.Telas
 {
-    public partial class Bacana_s_Burguers__Prod : Form
+    public partial class ControlProduto : UserControl
     {
-        public Bacana_s_Burguers__Prod()
+        public ControlProduto()
         {
             InitializeComponent();
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
