@@ -45,7 +45,7 @@ namespace crud.ui
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            var form2 = new ControlProduto(); // Declara o form2
+            var form2 = new ControlAddProdutos(); // Declara o form2
             PainelPrincipal.Controls.Add(form2);
 
         }
@@ -66,6 +66,11 @@ namespace crud.ui
         {
             var form5 = new ControlTelefone();
             PainelPrincipal.Controls.Add(form5);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

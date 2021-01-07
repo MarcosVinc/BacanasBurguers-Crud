@@ -30,29 +30,29 @@ namespace crud.ui
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.BotaoLista = new System.Windows.Forms.Label();
-            this.BotaoProduto = new System.Windows.Forms.Label();
-            this.PainelPrincipal = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.BotaoLista = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.BotaoProduto = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.PainelPrincipal = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -67,6 +67,16 @@ namespace crud.ui
             this.panel2.Size = new System.Drawing.Size(1008, 48);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::crud.ui.Properties.Resources.baseline_search_white_18dp2;
+            this.pictureBox1.Location = new System.Drawing.Point(968, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(37, 38);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -78,6 +88,15 @@ namespace crud.ui
             this.label1.TabIndex = 9;
             this.label1.Text = "Bacana\'s Burguers";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::crud.ui.Properties.Resources.baseline_format_align_justify_white_18dp2;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(37, 38);
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
             // 
             // panel1
             // 
@@ -110,6 +129,16 @@ namespace crud.ui
             this.label3.Text = "Telefone Uteis";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::crud.ui.Properties.Resources.baseline_call_black_18dp;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 331);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(37, 38);
+            this.pictureBox7.TabIndex = 13;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -120,6 +149,16 @@ namespace crud.ui
             this.label2.TabIndex = 12;
             this.label2.Text = "Clientes";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::crud.ui.Properties.Resources.baseline_person_add_alt_1_black_18dp;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 263);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(37, 38);
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // BotaoLista
             // 
@@ -132,6 +171,16 @@ namespace crud.ui
             this.BotaoLista.Text = "Produtos";
             this.BotaoLista.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::crud.ui.Properties.Resources.baseline_room_service_black_18dp1;
+            this.pictureBox6.Location = new System.Drawing.Point(12, 198);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(37, 38);
+            this.pictureBox6.TabIndex = 9;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
             // BotaoProduto
             // 
             this.BotaoProduto.AutoSize = true;
@@ -142,43 +191,6 @@ namespace crud.ui
             this.BotaoProduto.TabIndex = 6;
             this.BotaoProduto.Text = "Adicionar";
             this.BotaoProduto.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // PainelPrincipal
-            // 
-            this.PainelPrincipal.Location = new System.Drawing.Point(171, 51);
-            this.PainelPrincipal.Name = "PainelPrincipal";
-            this.PainelPrincipal.Size = new System.Drawing.Size(834, 678);
-            this.PainelPrincipal.TabIndex = 3;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::crud.ui.Properties.Resources.baseline_call_black_18dp;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 331);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(37, 38);
-            this.pictureBox7.TabIndex = 13;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::crud.ui.Properties.Resources.baseline_person_add_alt_1_black_18dp;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 263);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 38);
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::crud.ui.Properties.Resources.baseline_room_service_black_18dp1;
-            this.pictureBox6.Location = new System.Drawing.Point(12, 198);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(37, 38);
-            this.pictureBox6.TabIndex = 9;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox4
             // 
@@ -201,23 +213,12 @@ namespace crud.ui
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // PainelPrincipal
             // 
-            this.pictureBox1.Image = global::crud.ui.Properties.Resources.baseline_search_white_18dp2;
-            this.pictureBox1.Location = new System.Drawing.Point(968, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 38);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::crud.ui.Properties.Resources.baseline_format_align_justify_white_18dp2;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(37, 38);
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.PainelPrincipal.Location = new System.Drawing.Point(171, 51);
+            this.PainelPrincipal.Name = "PainelPrincipal";
+            this.PainelPrincipal.Size = new System.Drawing.Size(834, 678);
+            this.PainelPrincipal.TabIndex = 3;
             // 
             // Main
             // 
@@ -235,6 +236,8 @@ namespace crud.ui
             this.Load += new System.EventHandler(this.Main_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -242,8 +245,6 @@ namespace crud.ui
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -93,9 +93,29 @@ namespace crud.ui.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_add_circle_black_18dp1 {
+            get {
+                object obj = ResourceManager.GetObject("baseline_add_circle_black_18dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseline_call_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_call_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_clear_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_clear_black_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -53,17 +53,17 @@
     <Compile Include="Telas\ControlAddClientes.Designer.cs">
       <DependentUpon>ControlAddClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\ControlAddProdutos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Telas\ControlAddProdutos.Designer.cs">
+      <DependentUpon>ControlAddProdutos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\ControlLista.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Telas\ControlLista.Designer.cs">
       <DependentUpon>ControlLista.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Telas\ControlProduto.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Telas\ControlProduto.Designer.cs">
-      <DependentUpon>ControlProduto.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\ControlTelefone.cs">
       <SubType>UserControl</SubType>
@@ -82,11 +82,11 @@
     <EmbeddedResource Include="Telas\ControlAddClientes.resx">
       <DependentUpon>ControlAddClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\ControlAddProdutos.resx">
+      <DependentUpon>ControlAddProdutos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\ControlLista.resx">
       <DependentUpon>ControlLista.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Telas\ControlProduto.resx">
-      <DependentUpon>ControlProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\ControlTelefone.resx">
       <DependentUpon>ControlTelefone.cs</DependentUpon>
@@ -206,6 +206,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_add_circle_black_18dp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_clear_black_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

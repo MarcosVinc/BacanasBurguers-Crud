@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace crud.ui.Telas
 {
-    public partial class ControlProduto : UserControl
+    public partial class Adicionar : Form
     {
-        public ControlProduto()
+        public Adicionar()
         {
             InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }
