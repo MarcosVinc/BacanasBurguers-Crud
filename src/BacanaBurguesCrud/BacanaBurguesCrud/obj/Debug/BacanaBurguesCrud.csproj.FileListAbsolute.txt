@@ -1,0 +1,17 @@
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\BacanaBurguesCrud.exe.config
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\BacanaBurguesCrud.exe
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\BacanaBurguesCrud.pdb
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\MetroFramework.Design.dll
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\MetroFramework.dll
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.csprojAssemblyReference.cache
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.Properties.Resources.resources
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.csproj.GenerateResource.cache
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.csproj.CopyComplete
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.exe
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.pdb
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.BacanaBurgues.resources
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\pt-BR\BacanaBurguesCrud.resources.dll
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.BacanaBurgues.pt-BR.resources
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\pt-BR\BacanaBurguesCrud.resources.dll

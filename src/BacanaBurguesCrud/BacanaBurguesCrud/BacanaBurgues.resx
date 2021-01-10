@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="metroTile1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="metroTile1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>754, 243</value>
+  </data>
+  <data name="metroTile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 406</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="metroTile1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="metroTile1.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="metroTile1.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        FmbG1tYvpA+tTTSiAfgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Name" xml:space="preserve">
+    <value>metroTile1</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="metroTile2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="metroTile2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 455</value>
+  </data>
+  <data name="metroTile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 194</value>
+  </data>
+  <data name="metroTile2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroTile2.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="metroTile2.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAABGdBTUEAALGPC/xhBQAAA4JJREFUeF7t
+        mi9UFFEUxjcQDAYDgUAgEAgEgoFg8ByDgUAgEAwEg8FAMBgMRKKBYDAQCAaCgWAgGAgEg8FgIBAIBgPB
+        YDCs32/mwpmdfbMzMDu782bv75zvHI/vvrnve7x58/5sz3Ecx3Ecx3Ecx5kt+v3+vLQjHUvn0qXpTDqS
+        tqWHFj47yPSCdCD9k8r4K+1Jj6x6t5HRDelauitX0ro9ppvI4K5UZdQUwWjassd1CxnbTCzWh07q1kiS
+        oSXpD+5KuJB+SGWxvG7dmZNk5jCxFYavFqPr1rD+/UDakuiwIvYsPG5kZDn1E4RPeeFnnDLplMAAvGrx
+        LwFk4m1iZxjWOnMWVohiWCv9pkKAbQuLF5mgI0I8tpBSFMtiMsSRhcSLTDCh5rmw4koonlEU4sxC4sWM
+        5Dmx4sqoTqijL604XsxInlMrrozqfE+rDnBlxfEiE79SLwNcW3ElFD9HnaTmIOcWEi8y8S31MsSahZSi
+        2OdplSGOLSReZIKdeAiON6p85hk9RZ28Y2HxIhNrqZcg+xYWROWsqFlMhmDTO2+hcSMjJ4mlMJ+lFQu9
+        Rf/3VPpJQAEHFho/MrMqlR1zsEmls1hYlm1WmbAX7PHdQIZeJdbqQ0dv2GO7hYy9TyzWY9ce101kkJF0
+        n1NFXrtNe0y3kVHmpFETdx7Ok5as+uwg0ywBWCexzsmuuNl3MVlzVLJs4Y7jOLXRnLIocXnIHRm3q1+k
+        7LVz9vqZiZylwWuJDWs3thZZZIpDez7t7KkwXhe2Hx8ljmEXLU1c0HCJL1DokGvcMNIYYe0fXWokG0xe
+        mWnA4pNfiVQ+Z5oYahQd81VqC2x6p99RagTnNUy044C7L17J7IRdB0bUO6n0UK4RlHhFuuscw20or+Ab
+        6YXEyOPevtCEysjD1TRmqVvljj8LI3uyRyMklELXMCGI+yDxaa99VaxncAS7Lu1LVdvAH3Iy19RKRAOr
+        zDfMA5VvT++LcjyRPkllJwSTuYVVopdpviA0kp33xDeYysnSYtSvSOCZhTeHkvDXCsFufNXCpobawOtX
+        9OqNvCQYC0oSughk4mzN+kNtYTTxQcjT/EWjJcpzaMWtQW0KzpNW3ByWJ4930A2WJ4930A2WJw+/JeQL
+        0iaF5sqpdVA0mI3msDzRYjaaw/JEi9loDssTLWajOSxPtJgNx3Ecx3Ecx3Ecp7X0ev8B44SXe9NUH7oA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Name" xml:space="preserve">
+    <value>metroTile2</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroTile3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="metroTile3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 243</value>
+  </data>
+  <data name="metroTile3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 194</value>
+  </data>
+  <data name="metroTile3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="metroTile3.Text" xml:space="preserve">
+    <value>Lista de produtos</value>
+  </data>
+  <data name="metroTile3.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAABGdBTUEAALGPC/xhBQAAA1ZJREFUeF7t
+        2yGSFDEYxfEVKxAI5B4ByQHwSASCAyA4AIIDIBEcAIHgCCsQCAQSgUCsQKxEIpCI4SX5NwX7ume+ThWh
+        M5NfVQrI65dMUtSInZ2zYRiGYRiGYaiy2+3ONZ5ovNe41ujdZ43XGg84Yj0tcqHxSeNYvdG4zXHXU/lD
+        Xua4veO466j4tPRPwiOOHadSes85FZccO06l76V7Eq45dhxFQ9wtjmGI4+gZ4m5xDEMcR88Qd4tjGOI4
+        eoa4WxzDEMfRM8Td4hiGOI6eIe4WxzDEcfQMccZUFZZoju0NcRw9Q5wxVYUlmmN7QxxHzxBnTFVhiebY
+        3hDH0TPEGVNVWKI5tjfEcfQMccZUFZZoju0NcRw9Q5wxVYUlmmN7QxxHzxBvml7mS43ZH2HkQ8wgjqNn
+        iDdLL/FVeaW7nxp2SSVyxHH0DPEm6eVNlzOxSyrTjjiOniHeHL20m5cz+euSypQjjqNniDdFL2vpciZf
+        NM55dlZeaA16hrgJbXdX4yH/nKX80OVcaVzweNsLYqoKSyzSI+lyvmnMvtkmml91OUmZdsRx9AxxxlQV
+        lpileLqcydyb7erLSUrkiOPoGeKMqSosYRTdvJzJ70vSn1WXk5TYEcfRM8QZU1VYwihKHw0vSZd0Wf66
+        aPFykvKII46jZ4gzpqqwhFG09D8oYu/lJOUxRxxHzxBnTFVhiVmKay7p4OUk5VFHHEfPEP9z2uqexo+8
+        6WGhy0nK4444jp4hbkLb3dc4dEnhy0lKxRHH0TPEzWjLfZe06nKSUnPEcfQMcVPadu6SVl9OUqqOOI6e
+        IW5OW/95SVWXk5S6I46jZ4j/C22fLin9xlvV5STpDHOI4+gZ4oypKizRHNsb4jh6hjhjqgpLNMf2hjiO
+        niHOmKrCEs2xvSGOo2eIM6aqsERzbG+I4+gZ4oypKizRHNsb4jh6hjhjqgpLNMf2hjiOniHuFscwxHH0
+        DHG3OIYhjqNniLvFMQxxHD1D3C2OYYjj6BnibnEMQxxHzxB3i2MY4jh6p+KKY8ep9LV0T8Jbjh2n0ovS
+        PQmPOXacSnc0juErmIes/yrUROX08cu+D/J6l85W/cO3TAukL/U+1/ioEf0YZuvSr8M807jFMYdhGIZh
+        GIZhjbOzX2Y7uy6DwJetAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Name" xml:space="preserve">
+    <value>metroTile3</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="metroTile4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="metroTile4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 243</value>
+  </data>
+  <data name="metroTile4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 194</value>
+  </data>
+  <data name="metroTile4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="metroTile4.Text" xml:space="preserve">
+    <value>TELEFONES UTEIS</value>
+  </data>
+  <data name="metroTile4.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.Name" xml:space="preserve">
+    <value>metroTile4</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroTile5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="metroTile5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 455</value>
+  </data>
+  <data name="metroTile5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 194</value>
+  </data>
+  <data name="metroTile5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="metroTile5.Text" xml:space="preserve">
+    <value>REDES SOCIAIS</value>
+  </data>
+  <data name="metroTile5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="metroTile5.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAABGdBTUEAALGPC/xhBQAAA6hJREFUeF7t
+        mi90E0EQhyMqEAhERUUFAlGBqEBUVPQ9BKICgUAgKhAIBAKBQCAQCEQFAoFAIBAIBAKBQCAQCAQCgUAg
+        EAgEAlERfl92772mJJe9/ZPb5uZ77yea3O7OTO5mZ/Y6MgzDMAzDMAzDMAzDMx6P16UtaU86kO5Jj6VH
+        0l3phsR3XHPOD1s95NwZ6Yr0VPoofZeOpK4whrEfJAJJ8Nb8MqcLGb4p3ZTeSH+kUjD3S4m7bd0vXycy
+        8JL0UPok9QV3131py5vVPzJmW3or1QZ31gVv5vJhcekVllQMeeu5tOHNLo8WI7+waEyi7Yu/0qFULk9p
+        8g2/CIudVn5LD6S8ZYMm3JdK7kYNvyScKM1Pace7l4YmYlfI9Thh2AuJX5EygMDvSOf9chP09xqfSbvS
+        VemWxBhyXq4A4tOBX7I7GnxWwplU2PbZ/rP8YpqH4FEkUix+lVIhbXQrODWARPyZ0ZG8k7hDNv2UxdAa
+        7KZ3JKr0WLA3LC/pQm5rHoUY3kt7fqqlo7V5HGN/2G9Se4GpC/jVY/INRu37aXpHttD84nBX2Ijm+6Ev
+        eR67gBHX/fCqkF3kKpJ716fh0E8xGy5w1y2ExFt9Ny0bOU2gsA2hPTgNXOiunwm3YZV3TRuymUTelj7C
+        gtPAADduih/Str8kCc1DZc4JAGdF5AzqnCde1F58xnc0w1laBM1zWZpVR3ULTgMD3fgJHCVEN30aS07A
+        QOqXmAT6ReKx3vVTRqHxlAXH66e44DQwgfRMiso3GsfWy9FDzlaFloQiNqqk0DiKYA7z0oKTAsZLKcVb
+        KNReWR77pSBjySsYvWxeS/WcJJ5ExnHbhm6npWCXIsfVVX7IoNTeLTfhvVVpZEhK71aSxb1VaWRAbO82
+        D957UWvlor23Ko0WD21LTkKxxjbN+ywKwf/qK33GY0vC50cgAceWCf1t5YABzo4gSOJRb0Q1pnlDS/0S
+        Sr/BacAQZ89cuAOy1SqaiyAvKiXqCE4DBjm7piCfJLUGbWhuqvR8vVVpMMzZNyGpdwtFa+TtrUqDgVJ0
+        7xaD1uq/tzKMOtFjQQ65LfGfZZQBiHOfpbw2qhI5zuEZJ4YhL/7o8a75oauPnKV3izlRJFAX/TSriRxM
+        7d367a1KI+e6tCXzWO2tHAedn1EMo87BUedvJ4ZVBOKw8zuIYVbIOO78b2XY7QMBcHGYybCD00AgXDym
+        sOAch4C4uEyw4MyCwFhwDMMwDMMwDMMwhs5o9A/Fb68HV+CW5gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;metroTile5.Name" xml:space="preserve">
+    <value>metroTile5</value>
+  </data>
+  <data name="&gt;&gt;metroTile5.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroTile6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="metroTile6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 243</value>
+  </data>
+  <data name="metroTile6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 406</value>
+  </data>
+  <data name="metroTile6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="metroTile6.Text" xml:space="preserve">
+    <value>Cadastrar</value>
+  </data>
+  <data name="metroTile6.TileImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAABGdBTUEAALGPC/xhBQAABNdJREFUeF7t
+        2yGQ1EgUxvEVCAQCgUCcQCAQiBMIxAmqEAgEEoFAIBAIBOIEAoFAIBAIBAKBQCAQiBMIBAJxAoFAIBAn
+        EAjECQRi+d70f2CHr1+YTE8V2VT/qrq4yvfyJtmdSfckeztd13Vd13VdtxW7u7tnNJ5ovNX4sE/GG41H
+        Gn9yGtun5gd4kf3sq8YdTmm71Pju4iXm4RqntR1qeLz0nY3/NQ5zeu3UbE7vnqXtvYvULC5yc/OM02uj
+        RodLP/NF4wBl32nboUVaQYkhNsQrtPlYSc0nSlZo++kSm8+UtFGjC6WfeUnJCm0/WWLzgRJDbohXaHPM
+        pplDlH2nbVEf15ya9mlfTbLrT3W61PbzJTavKDHkhtgo+q9UmJOUrND2lyU27dchNXldepnzlKzQ9qsl
+        No8pMeSG2Ch6VSrMOUpWaPutEpsnlGxGDeJ6Eourmuo0qe13SmxuU2LIDbFRFCv5mquUrND2WP3XfKRk
+        M2pwtvQxbykxyrKDv0KJITfERlH2S8g+9kO/6OOUjaeds7fmA0qMsuztf5YSQ26IjaJNPsbZpeIyJeNp
+        5+zidokSoyy7gJ6gxJAbYqNok4kge9c9omQc7RjTY6x1ao5RZshrDlJiyA2xUbTJUiJbrrynZBztmC2w
+        0gubsmwRN3gxpMYQG0WbLEazBW84Stn6tNPfZV/zlBKjLJstXlNSRY0hrlL8uVSZoXd39pXpIiXr007P
+        y77mOiVG2eVSYtIfaqDGEFcpzk72DCVG2b1SYu5Tsj7t9LHsa05RYpTdLCXmLiVV1BjiKsXZL3BoArlY
+        SswLStbHjjX2BXVJ2cNSYtJ3XaDGEFcpzu5u3qTEKMvua42/ULOjIa5SnC0LblFilA3djBua+bIfUDpt
+        K8smkXT2S2mn7CJY/Yxr+0GNbFmQ3ntRdqmUVJ2mzCiLhwY1Q1N9do0cnESqtFO2Io7ttftA2UJsyU5W
+        22K6jqcOmeyWypUSp+xrjbbFa71fpC5dgae0UzbNh380Fitj/fuHxv3Y+AtxTyZOLNYj8W6L73nZu2Cv
+        FxqLiUH/xmvFRJB9r1qKd3LUHdGI1zqnkX3VCBei/yja6ahG9pGZk/hqlF7rBmnH7MvqnIxfJC5p5/g+
+        ll2L5qDthllQk/R7z4B3Gjc0snvBmcca2QIwE7Nt3P7IFrZD0jXdKDRbV5zkEfY7pfFvbPyFOMkbixcT
+        /XdMENkyY69Ydy0ni7hmjvrhLl5sG+iXiRkl3jHxPaf6lEDb4/5NLOz2TrPxA4iP73UNu30b28jih/BJ
+        Yyl6xIo9u//8F3kc0+Bsxy7t6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/D
+        NcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeI
+        J4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt6GeIJ4/DNcTt
+        6Dc37zi9dmqWPbLdz8Y/bs6o2e3Sc1Y2f2D4MzWLJwxDf2Sw3zzn1LZHTU9ozOF/i4pzGP9Hm+tQ43gU
+        HQ/14nnW2Kemv1v8JUk87d3sDxW6ruu6ruu67oednW+UyNwLBcfDJgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;metroTile6.Name" xml:space="preserve">
+    <value>metroTile6</value>
+  </data>
+  <data name="&gt;&gt;metroTile6.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="metroToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAapJREFUWEft
+        lyFOBjEQhVcgEAgOwQE4AIKEAyCRCA6ARCI4ABLJARAcAYFAIJAIBAKBRCIQ8L6ETRp4nW233YSE/yVf
+        sqIzO9tOZ2aHlf6LtsWpuBZ34vmbW3ElTsSWWFRr4li8iM9CHsWh6K598STcS0t4EDuiizga95JaPsSR
+        mC2OiHxwzls4F7N0JpzDHlTv1IFwjnrB8RXn1Lp4Fc6R40aQZ8CzW+Mg0YtUm8SsH1VrO1kS2J034Yxz
+        tAREnQq1J5xhREtAEFb0C+GMIloDos1kdS+cUURrQNS6rKI+ld6mlF0xime3Jrp9NOSsnMEIjucKW+cT
+        mBKycgYjSwXEqWQVFcSljox5KiuqpzOK4IWjeHZrIhjysroUziiiNaDU/pcYxJxRRGtAjMNZbYh34Qxz
+        tAQUJvQoBihnnKMlIGb0SW2Kmgab3r7oNv2EGZ2ptEhE7pz0hHyt0pwbV0p6zMViNqLPOIcthM10SgTV
+        c6f4cSjOm0jkVO0kmUJL4sehq7h9lISaOsVHkC/s9GKieHJDOEp6X9qQKXQMeUyejMOLBrLSH9AwfAHF
+        M2q5371IZwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="&gt;&gt;metroToolTip1.Name" xml:space="preserve">
+    <value>metroToolTip1</value>
+  </data>
+  <data name="&gt;&gt;metroToolTip1.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroToolTip, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BacanaBurgues</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
