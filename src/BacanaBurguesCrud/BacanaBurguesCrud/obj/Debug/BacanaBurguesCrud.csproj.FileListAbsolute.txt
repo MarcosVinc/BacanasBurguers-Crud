@@ -15,3 +15,4 @@ C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\Ba
 C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\pt-BR\BacanaBurguesCrud.resources.dll
 C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.BacanaBurgues.pt-BR.resources
 C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\pt-BR\BacanaBurguesCrud.resources.dll
+C:\Users\Marcos\source\CRUD\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaCadastrar.resources

@@ -17,9 +17,16 @@ namespace BacanaBurguesCrud
             InitializeComponent();
         }
 
-        private void TelaCadastrar_Load(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new BacanaBurgues();
+            f.Closed += (s, args) => this.Close();
         }
     }
 }

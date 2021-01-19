@@ -22,24 +22,14 @@ namespace BacanaBurguesCrud
 
         }
 
-        private void Adicionar_Click(object sender, EventArgs e)
+        private void metroTile1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void metroPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void metroLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroLabel1_Click_1(object sender, EventArgs e)
-        {
-
+            TelaCadastrar novaform = new TelaCadastrar();
+            novaform.Show();
         }
     }
 }
+// Para fechar a tela atual ! 
+// this.Hide();
+//Form f = new NOME DA TELA();
+//f.Closed += (s, args) => this.Close();
