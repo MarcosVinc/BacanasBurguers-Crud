@@ -123,6 +123,26 @@ namespace BacanaBurguesCrud.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_local_dining_black_36dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_local_dining_black_36dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_local_dining_black_36dp1 {
+            get {
+                object obj = ResourceManager.GetObject("baseline_local_dining_black_36dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseline_note_add_white_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_note_add_white_18dp", resourceCulture);
@@ -133,9 +153,49 @@ namespace BacanaBurguesCrud.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_person_add_alt_1_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_person_add_alt_1_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_person_remove_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_person_remove_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_remove_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_remove_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseline_reply_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_reply_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_room_service_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_room_service_black_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +216,76 @@ namespace BacanaBurguesCrud.Properties {
         internal static System.Drawing.Bitmap baseline_sync_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_sync_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_fastfood_white_36dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_fastfood_white_36dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_fastfood_white_36dp1 {
+            get {
+                object obj = ResourceManager.GetObject("outline_fastfood_white_36dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_groups_white_36dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_groups_white_36dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_phone_callback_white_24dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_phone_callback_white_24dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_point_of_sale_white_24dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_point_of_sale_white_24dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_settings_white_36dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_settings_white_36dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_storefront_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_storefront_white_48dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

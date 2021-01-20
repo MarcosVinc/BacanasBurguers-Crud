@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace BacanaBurguesCrud
 {
-    public partial class TelaCadastrar : MetroFramework.Forms.MetroForm
+    public partial class CalcularProdutos : MetroFramework.Forms.MetroForm
     {
-        public TelaCadastrar()
+        public CalcularProdutos()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void CalcularProdutos_Load(object sender, EventArgs e)
         {
-            AdicionarProdutos novaform = new AdicionarProdutos();
-            novaform.Show();
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

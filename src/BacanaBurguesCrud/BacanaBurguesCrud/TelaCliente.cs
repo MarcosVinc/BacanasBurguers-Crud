@@ -10,17 +10,13 @@ using System.Windows.Forms;
 
 namespace BacanaBurguesCrud
 {
-    public partial class TelaCadastrar : MetroFramework.Forms.MetroForm
+    public partial class TelaCliente : MetroFramework.Forms.MetroForm
     {
-        public TelaCadastrar()
+        private object his;
+
+        public TelaCliente()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            AdicionarProdutos novaform = new AdicionarProdutos();
-            novaform.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -28,6 +24,11 @@ namespace BacanaBurguesCrud
             this.Hide();
             Form f = new BacanaBurgues();
             f.Closed += (s, args) => this.Close();
+
         }
     }
 }
+/* his.Hide();
+   Form f = new BacanaBurgues();
+   f.Closed += (s, args) => this.Close();
+*/

@@ -56,11 +56,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdicionarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarProdutos.Designer.cs">
+      <DependentUpon>AdicionarProdutos.cs</DependentUpon>
+    </Compile>
     <Compile Include="BacanaBurgues.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BacanaBurgues.Designer.cs">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcularProdutos.Designer.cs">
+      <DependentUpon>CalcularProdutos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,11 +82,29 @@
     <Compile Include="TelaCadastrar.Designer.cs">
       <DependentUpon>TelaCadastrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCliente.Designer.cs">
+      <DependentUpon>TelaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaProduto.Designer.cs">
+      <DependentUpon>TelaProduto.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdicionarProdutos.resx">
+      <DependentUpon>AdicionarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BacanaBurgues.pt-BR.resx">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BacanaBurgues.resx">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcularProdutos.resx">
+      <DependentUpon>CalcularProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +118,12 @@
     </Compile>
     <EmbeddedResource Include="TelaCadastrar.resx">
       <DependentUpon>TelaCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaCliente.resx">
+      <DependentUpon>TelaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaProduto.resx">
+      <DependentUpon>TelaProduto.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -132,6 +168,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\baseline_note_add_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_fastfood_white_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_storefront_white_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_groups_white_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_point_of_sale_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_phone_callback_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_settings_white_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_remove_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_person_add_alt_1_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_person_remove_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_local_dining_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_fastfood_white_36dp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_room_service_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_local_dining_black_36dp1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
