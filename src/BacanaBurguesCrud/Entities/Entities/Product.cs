@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Entities.Entities
 {
-     public class Product : Base
+     public class Product : Base, 
     {
         [Display(Name = "Preço")]
         public decimal Preco { get; set; }
