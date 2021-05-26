@@ -1,0 +1,6 @@
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanasBurgues.Entidades\bin\Debug\BacanasBurgues.Entidades.dll
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanasBurgues.Entidades\bin\Debug\BacanasBurgues.Entidades.pdb
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanasBurgues.Entidades\obj\Debug\BacanasBurgues.Entidades.csprojAssemblyReference.cache
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanasBurgues.Entidades\obj\Debug\BacanasBurgues.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanasBurgues.Entidades\obj\Debug\BacanasBurgues.Entidades.dll
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanasBurgues.Entidades\obj\Debug\BacanasBurgues.Entidades.pdb

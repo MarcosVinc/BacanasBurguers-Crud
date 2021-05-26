@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BacanaBurgues.Repositorio;
+using BacanasBurgues.Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -47,6 +49,27 @@ namespace BacanaBurguesCrud
             this.Hide();
             Form f = new BacanaBurgues();
             f.Closed += (s, args) => this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var produto = new Produto();
+            var repositorio = new RepositorioDeProduto();
+
+            produto.Nome = txtNome.Text;
+            produto.Preco = double.Parse(txtPreco.Text);
+            produto.Quantidade = int.Parse(txtQuantidade.Text);
+            produto.Tipo = cbTipo.Text;
+            produto.Lucro = double.Parse(cbLucro.Text);
+            repositorio.Salvar(produto); 
+            
+
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

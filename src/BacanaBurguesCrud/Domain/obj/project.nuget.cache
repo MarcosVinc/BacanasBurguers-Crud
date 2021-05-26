@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rURueV/wbQg9A9x+6rbN6FsshJPM2mmsAZt7JnSkAiPIdcd7quWs3HHUWovN2WOk+VGySf5uYUX1YMoZFeIQrw==",
+  "dgSpecHash": "lAbhASKPZzkuo/4bgw+WD5KklXWHzgHt+RD/Ov14y7l6h37iMkvgnBfL52lo3liS0t6/74B6wdQkI40JCDBidw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

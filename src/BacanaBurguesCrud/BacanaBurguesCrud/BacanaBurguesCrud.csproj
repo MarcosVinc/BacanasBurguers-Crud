@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,6 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdicionarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarCliente.Designer.cs">
+      <DependentUpon>AdicionarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdicionarProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +101,9 @@
     <Compile Include="TelaProduto.Designer.cs">
       <DependentUpon>TelaProduto.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdicionarCliente.resx">
+      <DependentUpon>AdicionarCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdicionarProdutos.resx">
       <DependentUpon>AdicionarProdutos.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,6 +220,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\baseline_local_dining_black_36dp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BacanaBurgues.Repositorio\BacanaBurgues.Repositorio.csproj">
+      <Project>{894B716E-318D-4A1F-865B-9D32DA477BA2}</Project>
+      <Name>BacanaBurgues.Repositorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BacanasBurgues.Entidades\BacanasBurgues.Entidades.csproj">
+      <Project>{5eb2b794-04fe-4e9b-a049-90a84eb69ac3}</Project>
+      <Name>BacanasBurgues.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

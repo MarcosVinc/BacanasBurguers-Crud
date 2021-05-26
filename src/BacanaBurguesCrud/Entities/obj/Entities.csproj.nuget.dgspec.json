@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj": {
+    "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

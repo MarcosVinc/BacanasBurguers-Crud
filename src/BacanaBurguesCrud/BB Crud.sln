@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacanaBurguesCrud", "BacanaBurguesCrud\BacanaBurguesCrud.csproj", "{0C7A405B-A742-419A-81D4-74F18B8053D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Comentarios", "0 - Comentarios", "{02883B16-9B4E-4987-B9AE-0DB3F1BCF42C}"
+	ProjectSection(SolutionItems) = preProject
+		Comentarios Sobre.txt = Comentarios Sobre.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - AppBacanaBurgues", "1 - AppBacanaBurgues", "{D96EBD5C-0962-45BE-BAB9-B4B4E2B929EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Entidade", "2 - Entidade", "{86CCB5F6-87F1-4F33-BBF8-43B8AA7F32ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repositorio", "3 - Repositorio", "{F7E0EAA9-5409-4BED-80E8-7B15EA4CD7B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Serviço", "5 - Serviço", "{030A020A-BCEA-463E-A791-D21D54C0973D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - ObjetoDeValor", "4 - ObjetoDeValor", "{CEBD632F-4A2E-4CA6-BDC6-1BA34ADBC215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacanasBurgues.Entidades", "BacanasBurgues.Entidades\BacanasBurgues.Entidades.csproj", "{5EB2B794-04FE-4E9B-A049-90A84EB69AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacanaBurgues.Repositorio", "BacanaBurgues.Repositorio\BacanaBurgues.Repositorio.csproj", "{894B716E-318D-4A1F-865B-9D32DA477BA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C7A405B-A742-419A-81D4-74F18B8053D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7A405B-A742-419A-81D4-74F18B8053D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7A405B-A742-419A-81D4-74F18B8053D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7A405B-A742-419A-81D4-74F18B8053D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB2B794-04FE-4E9B-A049-90A84EB69AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB2B794-04FE-4E9B-A049-90A84EB69AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB2B794-04FE-4E9B-A049-90A84EB69AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB2B794-04FE-4E9B-A049-90A84EB69AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894B716E-318D-4A1F-865B-9D32DA477BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894B716E-318D-4A1F-865B-9D32DA477BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894B716E-318D-4A1F-865B-9D32DA477BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894B716E-318D-4A1F-865B-9D32DA477BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C7A405B-A742-419A-81D4-74F18B8053D9} = {D96EBD5C-0962-45BE-BAB9-B4B4E2B929EA}
+		{5EB2B794-04FE-4E9B-A049-90A84EB69AC3} = {86CCB5F6-87F1-4F33-BBF8-43B8AA7F32ED}
+		{894B716E-318D-4A1F-865B-9D32DA477BA2} = {F7E0EAA9-5409-4BED-80E8-7B15EA4CD7B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A8ED5A6-A9CF-41F1-9A44-EB729F6A8F34}
+	EndGlobalSection
+EndGlobal

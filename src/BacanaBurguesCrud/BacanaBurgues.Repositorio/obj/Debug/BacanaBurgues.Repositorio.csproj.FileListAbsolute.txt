@@ -1,0 +1,9 @@
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\bin\Debug\BacanaBurgues.Repositorio.dll
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\bin\Debug\BacanaBurgues.Repositorio.pdb
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\bin\Debug\BacanasBurgues.Entidades.dll
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\bin\Debug\BacanasBurgues.Entidades.pdb
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.csprojAssemblyReference.cache
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.csproj.CopyComplete
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.dll
+C:\Users\Vinicius\source\CRUD\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.pdb

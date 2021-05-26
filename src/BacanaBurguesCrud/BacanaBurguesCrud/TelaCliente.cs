@@ -12,8 +12,6 @@ namespace BacanaBurguesCrud
 {
     public partial class TelaCliente : MetroFramework.Forms.MetroForm
     {
-        private object his;
-
         public TelaCliente()
         {
             InitializeComponent();
@@ -25,6 +23,12 @@ namespace BacanaBurguesCrud
             Form f = new BacanaBurgues();
             f.Closed += (s, args) => this.Close();
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            AdicionarCliente novaform = new AdicionarCliente();
+            novaform.Show();
         }
     }
 }

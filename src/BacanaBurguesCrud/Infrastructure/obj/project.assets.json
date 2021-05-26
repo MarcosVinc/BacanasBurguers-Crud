@@ -1483,19 +1483,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.dll": {}
-        }
-      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5718,11 +5705,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Domain/1.0.0": {
-      "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
-    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -5731,7 +5713,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Domain >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.2"
@@ -5744,11 +5725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5769,11 +5750,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Domain\\Domain.csproj"
-            },
-            "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj"
+            "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj"
             }
           }
         }

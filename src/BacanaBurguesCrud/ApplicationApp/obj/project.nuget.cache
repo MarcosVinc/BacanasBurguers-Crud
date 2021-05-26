@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UGfTYOjS9YxqQ65R8BVR0Sr8wUgBZVzXMmakRn2w/9xZ95GhCdS5SXdUV4QJIUo/Zj8YE0Opap8YTvCEvE9XOw==",
+  "dgSpecHash": "BzD9VAeuYYgdhTdHRbd+eEs6uxiYpjAlyEHjgV1Tg8uPnFQBogoO9VtHiG601rHa3dJepNyV4CXqHkzopkNJDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\ApplicationApp\\ApplicationApp.csproj",
+  "projectFilePath": "C:\\Users\\Vinicius\\Source\\CRUD\\src\\BacanaBurguesCrud\\ApplicationApp\\ApplicationApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

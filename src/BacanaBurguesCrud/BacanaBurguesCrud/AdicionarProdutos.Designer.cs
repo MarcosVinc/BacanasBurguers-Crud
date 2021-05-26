@@ -31,23 +31,24 @@ namespace BacanaBurguesCrud
         {
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.txtNome = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
+            this.txtPreco = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.cbLucro = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.txtQuantidade = new MetroFramework.Controls.MetroTextBox();
+            this.cbTipo = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(9, 19);
+            this.metroLabel1.Location = new System.Drawing.Point(9, 31);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(93, 19);
             this.metroLabel1.TabIndex = 0;
@@ -62,36 +63,36 @@ namespace BacanaBurguesCrud
             this.metroLabel2.TabIndex = 2;
             this.metroLabel2.Text = "Nome";
             // 
-            // metroTextBox1
+            // txtNome
             // 
             // 
             // 
             // 
-            this.metroTextBox1.CustomButton.Image = null;
-            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(538, 1);
-            this.metroTextBox1.CustomButton.Name = "";
-            this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox1.CustomButton.TabIndex = 1;
-            this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox1.CustomButton.UseSelectable = true;
-            this.metroTextBox1.CustomButton.Visible = false;
-            this.metroTextBox1.Lines = new string[0];
-            this.metroTextBox1.Location = new System.Drawing.Point(207, 103);
-            this.metroTextBox1.MaxLength = 32767;
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox1.SelectedText = "";
-            this.metroTextBox1.SelectionLength = 0;
-            this.metroTextBox1.SelectionStart = 0;
-            this.metroTextBox1.ShortcutsEnabled = true;
-            this.metroTextBox1.Size = new System.Drawing.Size(560, 23);
-            this.metroTextBox1.TabIndex = 3;
-            this.metroTextBox1.UseSelectable = true;
-            this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            this.metroTextBox1.Click += new System.EventHandler(this.metroTextBox1_Click);
+            this.txtNome.CustomButton.Image = null;
+            this.txtNome.CustomButton.Location = new System.Drawing.Point(538, 1);
+            this.txtNome.CustomButton.Name = "";
+            this.txtNome.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtNome.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtNome.CustomButton.TabIndex = 1;
+            this.txtNome.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtNome.CustomButton.UseSelectable = true;
+            this.txtNome.CustomButton.Visible = false;
+            this.txtNome.Lines = new string[0];
+            this.txtNome.Location = new System.Drawing.Point(207, 103);
+            this.txtNome.MaxLength = 32767;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.PasswordChar = '\0';
+            this.txtNome.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtNome.SelectedText = "";
+            this.txtNome.SelectionLength = 0;
+            this.txtNome.SelectionStart = 0;
+            this.txtNome.ShortcutsEnabled = true;
+            this.txtNome.Size = new System.Drawing.Size(560, 23);
+            this.txtNome.TabIndex = 3;
+            this.txtNome.UseSelectable = true;
+            this.txtNome.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtNome.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtNome.Click += new System.EventHandler(this.metroTextBox1_Click);
             // 
             // metroLabel3
             // 
@@ -103,35 +104,35 @@ namespace BacanaBurguesCrud
             this.metroLabel3.Text = "Quandidade";
             this.metroLabel3.Click += new System.EventHandler(this.metroLabel3_Click);
             // 
-            // metroTextBox3
+            // txtPreco
             // 
             // 
             // 
             // 
-            this.metroTextBox3.CustomButton.Image = null;
-            this.metroTextBox3.CustomButton.Location = new System.Drawing.Point(85, 1);
-            this.metroTextBox3.CustomButton.Name = "";
-            this.metroTextBox3.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox3.CustomButton.TabIndex = 1;
-            this.metroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox3.CustomButton.UseSelectable = true;
-            this.metroTextBox3.CustomButton.Visible = false;
-            this.metroTextBox3.Lines = new string[0];
-            this.metroTextBox3.Location = new System.Drawing.Point(687, 268);
-            this.metroTextBox3.MaxLength = 32767;
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.PasswordChar = '\0';
-            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox3.SelectedText = "";
-            this.metroTextBox3.SelectionLength = 0;
-            this.metroTextBox3.SelectionStart = 0;
-            this.metroTextBox3.ShortcutsEnabled = true;
-            this.metroTextBox3.Size = new System.Drawing.Size(107, 23);
-            this.metroTextBox3.TabIndex = 7;
-            this.metroTextBox3.UseSelectable = true;
-            this.metroTextBox3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtPreco.CustomButton.Image = null;
+            this.txtPreco.CustomButton.Location = new System.Drawing.Point(85, 1);
+            this.txtPreco.CustomButton.Name = "";
+            this.txtPreco.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtPreco.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtPreco.CustomButton.TabIndex = 1;
+            this.txtPreco.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtPreco.CustomButton.UseSelectable = true;
+            this.txtPreco.CustomButton.Visible = false;
+            this.txtPreco.Lines = new string[0];
+            this.txtPreco.Location = new System.Drawing.Point(687, 268);
+            this.txtPreco.MaxLength = 32767;
+            this.txtPreco.Name = "txtPreco";
+            this.txtPreco.PasswordChar = '\0';
+            this.txtPreco.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtPreco.SelectedText = "";
+            this.txtPreco.SelectionLength = 0;
+            this.txtPreco.SelectionStart = 0;
+            this.txtPreco.ShortcutsEnabled = true;
+            this.txtPreco.Size = new System.Drawing.Size(107, 23);
+            this.txtPreco.TabIndex = 7;
+            this.txtPreco.UseSelectable = true;
+            this.txtPreco.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtPreco.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // metroLabel4
             // 
@@ -143,16 +144,37 @@ namespace BacanaBurguesCrud
             this.metroLabel4.Text = "%Lucro";
             this.metroLabel4.Click += new System.EventHandler(this.metroLabel4_Click);
             // 
-            // metroComboBox1
+            // cbLucro
             // 
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Location = new System.Drawing.Point(207, 235);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox1.TabIndex = 8;
-            this.metroComboBox1.UseSelectable = true;
-            this.metroComboBox1.SelectedIndexChanged += new System.EventHandler(this.metroComboBox1_SelectedIndexChanged);
+            this.cbLucro.FormattingEnabled = true;
+            this.cbLucro.ItemHeight = 23;
+            this.cbLucro.Items.AddRange(new object[] {
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100"});
+            this.cbLucro.Location = new System.Drawing.Point(207, 235);
+            this.cbLucro.Name = "cbLucro";
+            this.cbLucro.Size = new System.Drawing.Size(121, 29);
+            this.cbLucro.TabIndex = 8;
+            this.cbLucro.UseSelectable = true;
+            this.cbLucro.SelectedIndexChanged += new System.EventHandler(this.metroComboBox1_SelectedIndexChanged);
             // 
             // metroLabel5
             // 
@@ -163,55 +185,50 @@ namespace BacanaBurguesCrud
             this.metroLabel5.TabIndex = 9;
             this.metroLabel5.Text = "Preço";
             // 
-            // metroTextBox2
+            // txtQuantidade
             // 
             // 
             // 
             // 
-            this.metroTextBox2.CustomButton.Image = null;
-            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(538, 1);
-            this.metroTextBox2.CustomButton.Name = "";
-            this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox2.CustomButton.TabIndex = 1;
-            this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox2.CustomButton.UseSelectable = true;
-            this.metroTextBox2.CustomButton.Visible = false;
-            this.metroTextBox2.Lines = new string[0];
-            this.metroTextBox2.Location = new System.Drawing.Point(207, 171);
-            this.metroTextBox2.MaxLength = 32767;
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.PasswordChar = '\0';
-            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox2.SelectedText = "";
-            this.metroTextBox2.SelectionLength = 0;
-            this.metroTextBox2.SelectionStart = 0;
-            this.metroTextBox2.ShortcutsEnabled = true;
-            this.metroTextBox2.Size = new System.Drawing.Size(393, 23);
-            this.metroTextBox2.TabIndex = 12;
-            this.metroTextBox2.UseSelectable = true;
-            this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtQuantidade.CustomButton.Image = null;
+            this.txtQuantidade.CustomButton.Location = new System.Drawing.Point(371, 1);
+            this.txtQuantidade.CustomButton.Name = "";
+            this.txtQuantidade.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtQuantidade.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtQuantidade.CustomButton.TabIndex = 1;
+            this.txtQuantidade.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtQuantidade.CustomButton.UseSelectable = true;
+            this.txtQuantidade.CustomButton.Visible = false;
+            this.txtQuantidade.Lines = new string[0];
+            this.txtQuantidade.Location = new System.Drawing.Point(207, 171);
+            this.txtQuantidade.MaxLength = 32767;
+            this.txtQuantidade.Name = "txtQuantidade";
+            this.txtQuantidade.PasswordChar = '\0';
+            this.txtQuantidade.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtQuantidade.SelectedText = "";
+            this.txtQuantidade.SelectionLength = 0;
+            this.txtQuantidade.SelectionStart = 0;
+            this.txtQuantidade.ShortcutsEnabled = true;
+            this.txtQuantidade.Size = new System.Drawing.Size(393, 23);
+            this.txtQuantidade.TabIndex = 12;
+            this.txtQuantidade.UseSelectable = true;
+            this.txtQuantidade.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtQuantidade.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // pictureBox1
+            // cbTipo
             // 
-            this.pictureBox1.Image = global::BacanaBurguesCrud.Properties.Resources.baseline_local_dining_black_36dp1;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 63);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(169, 201);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // metroComboBox2
-            // 
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Location = new System.Drawing.Point(642, 171);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox2.TabIndex = 14;
-            this.metroComboBox2.UseSelectable = true;
+            this.cbTipo.FormattingEnabled = true;
+            this.cbTipo.ItemHeight = 23;
+            this.cbTipo.Items.AddRange(new object[] {
+            "A",
+            "B",
+            "C",
+            "D"});
+            this.cbTipo.Location = new System.Drawing.Point(642, 171);
+            this.cbTipo.Name = "cbTipo";
+            this.cbTipo.Size = new System.Drawing.Size(121, 29);
+            this.cbTipo.TabIndex = 14;
+            this.cbTipo.UseSelectable = true;
             // 
             // metroLabel6
             // 
@@ -222,20 +239,42 @@ namespace BacanaBurguesCrud
             this.metroLabel6.TabIndex = 13;
             this.metroLabel6.Text = "Tipo";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(706, 31);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Salvar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::BacanaBurguesCrud.Properties.Resources.baseline_local_dining_black_36dp1;
+            this.pictureBox1.Location = new System.Drawing.Point(9, 63);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(169, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // AdicionarProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(815, 302);
-            this.Controls.Add(this.metroComboBox2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cbTipo);
             this.Controls.Add(this.metroLabel6);
-            this.Controls.Add(this.metroTextBox2);
+            this.Controls.Add(this.txtQuantidade);
             this.Controls.Add(this.metroLabel5);
-            this.Controls.Add(this.metroComboBox1);
-            this.Controls.Add(this.metroTextBox3);
+            this.Controls.Add(this.cbLucro);
+            this.Controls.Add(this.txtPreco);
             this.Controls.Add(this.metroLabel4);
             this.Controls.Add(this.metroLabel3);
-            this.Controls.Add(this.metroTextBox1);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.metroLabel1);
@@ -256,14 +295,15 @@ namespace BacanaBurguesCrud
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
-        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private MetroFramework.Controls.MetroTextBox txtNome;
         private MetroFramework.Controls.MetroLabel metroLabel3;
-        private MetroFramework.Controls.MetroTextBox metroTextBox3;
+        private MetroFramework.Controls.MetroTextBox txtPreco;
         private MetroFramework.Controls.MetroLabel metroLabel4;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroComboBox cbLucro;
         private MetroFramework.Controls.MetroLabel metroLabel5;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
-        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private MetroFramework.Controls.MetroTextBox txtQuantidade;
+        private MetroFramework.Controls.MetroComboBox cbTipo;
         private MetroFramework.Controls.MetroLabel metroLabel6;
+        private System.Windows.Forms.Button button1;
     }
 }
