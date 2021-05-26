@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mynDPJZYruNy6ZAYVGRXp9kU/Us5qhKjgR4TTzyDaoGiUm2Px1PhBUN2nIBJFfIWcf1hJ4WfNE6vUTHYGKLf4g==",
+  "dgSpecHash": "8S7xn3sNtIUL4SXjLWzR+HjeEhV7KZlp4ZahG6kdVjBjIVlpPCFa0NxE8sEN0v3KlGY0miUYpipyDiOy6DcX/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcos\\source\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Vinicius\\Source\\Repos\\MarcosVinc\\CRUD\\src\\BacanaBurguesCrud\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

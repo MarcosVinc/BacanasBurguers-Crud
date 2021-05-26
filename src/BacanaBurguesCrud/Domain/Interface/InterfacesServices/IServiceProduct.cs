@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.InterfaceServices
+namespace Domain.Interface.InterfacesServices
 {
-     public interface IServiceProduct
+    public interface IServiceProduct
     {
     }
 }

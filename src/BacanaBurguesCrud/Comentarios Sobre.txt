@@ -1,0 +1,34 @@
+Interface : 
+   é um tipo de classe que contém apenas as assinaturas de métodos, propriedades, eventos e indexadores.
+		
+	Assinatura de Método: 
+		Os métodos são declarados em uma classe, structou interface especificando o nível de acesso, 
+		como public ou private , modificadores opcionais, como abstract ou sealed , o valor de retorno,
+		o nome do método e qualquer parâmetro de método. Juntas, essas partes são a assinatura do método.
+
+			Structou:
+			Structs ou structou são tipos de valor (semântica de valor). Structs are value types (Value semantics). Todos os tipos de struct herdam implicitamente da classe System. 
+			A atribuição a uma variável de um tipo struct cria uma cópia do valor que está sendo atribuído (atribuição).
+
+Generics : 
+	contém interfaces e classes que definem coleções genéricas, 
+	que permitem aos usuários criarem coleções fortemente tipadas que fornecem melhor segurança de tipos e 
+	desempenho do que coleções não genéricas fortemente tipadas
+
+
+Task:
+	Uma tarefa (ou task) representa uma unidade de trabalho que deverá ser realizada. 
+	Esta unidade de trabalho pode rodar em uma thread separada e é também possível iniciar uma task de forma 
+	sincronizada a qual resulta em uma espera pela thread chamada.
+		
+		theread: Thread é uma forma de um processo dividir a si mesmo em duas ou mais tarefas, podendo executar elas concorrentemente. 
+		O suporte a threads é oferecido pelos Sistemas Operacionais, ou por bibliotecas de algumas linguagens de programação.
+
+List: 
+	List é uma coleção de objetos que mantém a ordem em que eles foram adicionados.
+	Com listas aprendemos como podemos armazenar, alterar, remover
+		
+		List<T>:
+			O List(T) é uma coleção que possue a mesma característica dos ArrayLists, que é a de ser dinâmica, 
+			e a característica dos Arrays que é de permitir um único tipo de dado. Vantagem sobre os Arrays: · Pode ser aumentado dinamicamente.
+			Os List(T) são coleções que herdam da classe List(T), do namespace: System.
