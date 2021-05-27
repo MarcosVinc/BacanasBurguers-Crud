@@ -4,11 +4,13 @@ namespace BacanasBurgues.Entidades
 {
     public class Produto
     {
+        public string Identificador { get; set; }
         public string Nome { get; set; }
         public string Tipo { get; set; }
         public int Quantidade { get; set; }
         public double Preco { get; set; }
         public double Lucro { get; set; }
+
         //Nome: Nome do produto
         //Tipo: Em qual tipo esse produto se enquadra
         // Quantidade: Quantidade de produdo a ser adicionada
@@ -23,7 +25,8 @@ namespace BacanasBurgues.Entidades
             Quantidade = quantidade;
         }
         public Produto() 
-        { 
+        {
+            Identificador = Guid.NewGuid().ToString();
         }
     }
 }

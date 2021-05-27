@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexao.cs" />
     <Compile Include="RepositorioDeCliente.cs" />
     <Compile Include="RepositorioDeProduto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

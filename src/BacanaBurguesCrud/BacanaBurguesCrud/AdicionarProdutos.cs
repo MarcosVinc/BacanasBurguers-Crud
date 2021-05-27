@@ -61,7 +61,8 @@ namespace BacanaBurguesCrud
             produto.Quantidade = int.Parse(txtQuantidade.Text);
             produto.Tipo = cbTipo.Text;
             produto.Lucro = double.Parse(cbLucro.Text);
-            repositorio.Salvar(produto); 
+            repositorio.Salvar(produto);
+            MessageBox.Show(repositorio.mensagem);
             
 
             

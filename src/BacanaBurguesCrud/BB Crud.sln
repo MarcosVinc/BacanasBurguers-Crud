@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacanaBurguesCrud", "Bacana
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Comentarios", "0 - Comentarios", "{02883B16-9B4E-4987-B9AE-0DB3F1BCF42C}"
 	ProjectSection(SolutionItems) = preProject
-		Comentarios Sobre.txt = Comentarios Sobre.txt
+		Ideias e significados.txt = Ideias e significados.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - AppBacanaBurgues", "1 - AppBacanaBurgues", "{D96EBD5C-0962-45BE-BAB9-B4B4E2B929EA}"
