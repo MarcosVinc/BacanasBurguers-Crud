@@ -282,6 +282,7 @@ namespace BacanaBurguesCrud
             this.MaximumSize = new System.Drawing.Size(815, 302);
             this.MinimumSize = new System.Drawing.Size(815, 302);
             this.Name = "AdicionarProdutos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Style = MetroFramework.MetroColorStyle.Orange;
             this.Load += new System.EventHandler(this.AdicionarProdutos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

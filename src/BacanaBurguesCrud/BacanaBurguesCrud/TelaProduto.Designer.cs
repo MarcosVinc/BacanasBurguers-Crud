@@ -39,7 +39,7 @@ namespace BacanaBurguesCrud
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel2.Location = new System.Drawing.Point(124, 112);
+            this.panel2.Location = new System.Drawing.Point(74, 118);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(925, 25);
             this.panel2.TabIndex = 6;
@@ -47,7 +47,7 @@ namespace BacanaBurguesCrud
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Location = new System.Drawing.Point(71, 112);
+            this.panel1.Location = new System.Drawing.Point(21, 118);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(47, 25);
             this.panel1.TabIndex = 5;
@@ -66,13 +66,13 @@ namespace BacanaBurguesCrud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1128, 667);
+            this.ClientSize = new System.Drawing.Size(1022, 546);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1128, 667);
-            this.MinimumSize = new System.Drawing.Size(1128, 667);
+            this.MaximumSize = new System.Drawing.Size(1022, 546);
+            this.MinimumSize = new System.Drawing.Size(1022, 546);
             this.Name = "TelaProduto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -246,6 +246,8 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtNome);
+            this.MaximumSize = new System.Drawing.Size(815, 302);
+            this.MinimumSize = new System.Drawing.Size(815, 302);
             this.Name = "AdicionarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.TransparencyKey = System.Drawing.SystemColors.Info;

@@ -46,6 +46,16 @@ namespace BacanaBurguesCrud
             novaform.Show();
 
         }
+
+        private void metroPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 // Para fechar a tela atual ! 

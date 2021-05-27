@@ -74,6 +74,7 @@ namespace BacanaBurguesCrud
             this.MaximumSize = new System.Drawing.Size(1128, 667);
             this.MinimumSize = new System.Drawing.Size(1128, 667);
             this.Name = "CalcularProdutos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Load += new System.EventHandler(this.CalcularProdutos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

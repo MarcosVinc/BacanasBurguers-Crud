@@ -118,37 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="metroDateTime1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1034, 53</value>
-  </data>
-  <data name="metroDateTime1.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 29</value>
-  </data>
-  <data name="metroDateTime1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 29</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="metroDateTime1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;metroDateTime1.Name" xml:space="preserve">
-    <value>metroDateTime1</value>
-  </data>
-  <data name="&gt;&gt;metroDateTime1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;metroDateTime1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;metroDateTime1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="metroTile6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>838, 427</value>
+    <value>432, 440</value>
   </data>
   <data name="metroTile6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 291</value>
+    <value>325, 117</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="metroTile6.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
@@ -168,10 +144,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroTile6.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="metroTile5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 427</value>
+    <value>432, 168</value>
   </data>
   <data name="metroTile5.Size" type="System.Drawing.Size, System.Drawing">
     <value>325, 117</value>
@@ -195,19 +171,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroTile5.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="metroTile4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 427</value>
+    <value>216, 365</value>
   </data>
   <data name="metroTile4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 291</value>
+    <value>197, 192</value>
   </data>
   <data name="metroTile4.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <data name="metroTile4.Text" xml:space="preserve">
-    <value>Clientes</value>
+    <value>Cadastro Clientes</value>
   </data>
   <data name="metroTile4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -222,10 +198,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroTile4.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="metroTile3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 589</value>
+    <value>432, 304</value>
   </data>
   <data name="metroTile3.Size" type="System.Drawing.Size, System.Drawing">
     <value>325, 117</value>
@@ -249,19 +225,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroTile3.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="metroTile2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>662, 241</value>
+    <value>776, 147</value>
   </data>
   <data name="metroTile2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>373, 158</value>
+    <value>197, 192</value>
   </data>
   <data name="metroTile2.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
   <data name="metroTile2.Text" xml:space="preserve">
-    <value>Produtos</value>
+    <value>Produtos Cadastrado</value>
   </data>
   <data name="metroTile2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -276,19 +252,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroTile2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="metroTile1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 241</value>
+    <value>216, 147</value>
   </data>
   <data name="metroTile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>373, 158</value>
+    <value>197, 192</value>
   </data>
   <data name="metroTile1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="metroTile1.Text" xml:space="preserve">
-    <value>Cadastro</value>
+    <value> Produtos Cadastro</value>
   </data>
   <data name="metroTile1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -303,7 +279,59 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroTile1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>2</value>
+  </data>
+  <data name="metroTile7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 365</value>
+  </data>
+  <data name="metroTile7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 192</value>
+  </data>
+  <data name="metroTile7.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="metroTile7.Text" xml:space="preserve">
+    <value>Clientes Cadastrados</value>
+  </data>
+  <data name="metroTile7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;metroTile7.Name" xml:space="preserve">
+    <value>metroTile7</value>
+  </data>
+  <data name="&gt;&gt;metroTile7.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 614</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1130, 51</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -312,20 +340,10 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1257, 799</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1257, 799</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1257, 799</value>
+    <value>1176, 663</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>WindowsDefaultLocation</value>
+    <value>CenterParent</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>BacanaBurgues</value>

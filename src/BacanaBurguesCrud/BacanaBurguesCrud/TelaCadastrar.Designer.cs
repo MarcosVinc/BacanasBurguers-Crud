@@ -55,14 +55,14 @@ namespace BacanaBurguesCrud
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel2.Location = new System.Drawing.Point(98, 149);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(974, 25);
+            this.panel2.Size = new System.Drawing.Size(901, 25);
             this.panel2.TabIndex = 4;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::BacanaBurguesCrud.Properties.Resources.baseline_remove_black_18dp;
-            this.pictureBox4.Location = new System.Drawing.Point(971, 81);
+            this.pictureBox4.Location = new System.Drawing.Point(898, 74);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(38, 39);
             this.pictureBox4.TabIndex = 5;
@@ -72,7 +72,7 @@ namespace BacanaBurguesCrud
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1034, 81);
+            this.pictureBox3.Location = new System.Drawing.Point(961, 74);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(38, 39);
             this.pictureBox3.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace BacanaBurguesCrud
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(906, 81);
+            this.pictureBox2.Location = new System.Drawing.Point(833, 74);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(38, 39);
             this.pictureBox2.TabIndex = 2;
@@ -103,7 +103,7 @@ namespace BacanaBurguesCrud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1128, 667);
+            this.ClientSize = new System.Drawing.Size(1022, 546);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox3);
@@ -111,8 +111,8 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1128, 667);
-            this.MinimumSize = new System.Drawing.Size(1128, 667);
+            this.MaximumSize = new System.Drawing.Size(1022, 546);
+            this.MinimumSize = new System.Drawing.Size(1022, 546);
             this.Name = "TelaCadastrar";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

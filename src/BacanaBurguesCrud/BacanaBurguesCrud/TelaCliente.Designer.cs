@@ -45,17 +45,17 @@ namespace BacanaBurguesCrud
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel2.Location = new System.Drawing.Point(100, 127);
+            this.panel2.Location = new System.Drawing.Point(118, 141);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(981, 25);
+            this.panel2.Size = new System.Drawing.Size(889, 25);
             this.panel2.TabIndex = 8;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Location = new System.Drawing.Point(47, 127);
+            this.panel1.Location = new System.Drawing.Point(26, 141);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(47, 25);
+            this.panel1.Size = new System.Drawing.Size(59, 25);
             this.panel1.TabIndex = 7;
             // 
             // pictureBox1
@@ -72,7 +72,7 @@ namespace BacanaBurguesCrud
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::BacanaBurguesCrud.Properties.Resources.baseline_person_remove_black_18dp;
-            this.pictureBox4.Location = new System.Drawing.Point(975, 63);
+            this.pictureBox4.Location = new System.Drawing.Point(906, 72);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(38, 39);
             this.pictureBox4.TabIndex = 11;
@@ -82,7 +82,7 @@ namespace BacanaBurguesCrud
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1038, 63);
+            this.pictureBox3.Location = new System.Drawing.Point(969, 72);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(38, 39);
             this.pictureBox3.TabIndex = 10;
@@ -92,7 +92,7 @@ namespace BacanaBurguesCrud
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::BacanaBurguesCrud.Properties.Resources.baseline_person_add_alt_1_black_18dp;
-            this.pictureBox2.Location = new System.Drawing.Point(910, 63);
+            this.pictureBox2.Location = new System.Drawing.Point(841, 72);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(38, 39);
             this.pictureBox2.TabIndex = 9;
@@ -103,7 +103,7 @@ namespace BacanaBurguesCrud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1128, 667);
+            this.ClientSize = new System.Drawing.Size(1022, 546);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -111,8 +111,8 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1128, 667);
-            this.MinimumSize = new System.Drawing.Size(1128, 667);
+            this.MaximumSize = new System.Drawing.Size(1022, 546);
+            this.MinimumSize = new System.Drawing.Size(1022, 546);
             this.Name = "TelaCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
