@@ -146,6 +146,7 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.metroTile2);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.MaximizeBox = false;
+            this.Movable = false;
             this.Name = "BacanaBurgues";
             this.Style = MetroFramework.MetroColorStyle.Default;
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -113,6 +113,7 @@ namespace BacanaBurguesCrud
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1022, 546);
             this.MinimumSize = new System.Drawing.Size(1022, 546);
+            this.Movable = false;
             this.Name = "TelaCadastrar";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
