@@ -8,6 +8,7 @@ namespace BacanasBurgues.Entidades
 {
    public class Cliente
     {
+        public string Identificador { get; set; }
         public string Nome { get; set; }
         public string Endereco { get; set; }
         public string Telefone { get; set; }
@@ -21,8 +22,10 @@ namespace BacanasBurgues.Entidades
             Cep = cep;
        }
         public Cliente() 
-        { 
-        
+        {
+            Identificador = Guid.NewGuid().ToString();
+
+
         }
 
     }

@@ -34,7 +34,7 @@ namespace BacanaBurguesCrud
             cliente.Cep = int.Parse(txtCEP.Text);
             cliente.Telefone = txtTelefone.Text;
             repositorio.Salvar(cliente);
-
+            MessageBox.Show(repositorio.mensagem);
 
         }
 

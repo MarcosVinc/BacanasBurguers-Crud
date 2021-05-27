@@ -69,6 +69,12 @@
     <Compile Include="AdicionarProdutos.Designer.cs">
       <DependentUpon>AdicionarProdutos.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdicionarTelefonesUteis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarTelefonesUteis.Designer.cs">
+      <DependentUpon>AdicionarTelefonesUteis.cs</DependentUpon>
+    </Compile>
     <Compile Include="BacanaBurgues.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,11 +107,20 @@
     <Compile Include="TelaProduto.Designer.cs">
       <DependentUpon>TelaProduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaTelefonesUteis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaTelefonesUteis.Designer.cs">
+      <DependentUpon>TelaTelefonesUteis.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdicionarCliente.resx">
       <DependentUpon>AdicionarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdicionarProdutos.resx">
       <DependentUpon>AdicionarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdicionarTelefonesUteis.resx">
+      <DependentUpon>AdicionarTelefonesUteis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BacanaBurgues.pt-BR.resx">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
@@ -134,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TelaProduto.resx">
       <DependentUpon>TelaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaTelefonesUteis.resx">
+      <DependentUpon>TelaTelefonesUteis.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
@@ -230,6 +248,18 @@
       <Project>{5eb2b794-04fe-4e9b-a049-90a84eb69ac3}</Project>
       <Name>BacanasBurgues.Entidades</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_add_ic_call_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_add_ic_call_black_18dp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_phone_disabled_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_phone_disabled_black_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

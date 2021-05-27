@@ -96,3 +96,5 @@ C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Deb
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.csproj.CopyComplete
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.exe
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.pdb
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaTelefonesUteis.resources
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.AdicionarTelefonesUteis.resources

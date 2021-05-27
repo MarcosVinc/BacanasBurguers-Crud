@@ -30,6 +30,11 @@ namespace BacanaBurguesCrud
             AdicionarCliente novaform = new AdicionarCliente();
             novaform.Show();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 /* his.Hide();

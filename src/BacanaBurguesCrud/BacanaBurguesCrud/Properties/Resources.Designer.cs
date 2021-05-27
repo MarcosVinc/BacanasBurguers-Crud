@@ -223,6 +223,26 @@ namespace BacanaBurguesCrud.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap outline_add_ic_call_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_add_ic_call_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_add_ic_call_black_18dp1 {
+            get {
+                object obj = ResourceManager.GetObject("outline_add_ic_call_black_18dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap outline_fastfood_white_36dp {
             get {
                 object obj = ResourceManager.GetObject("outline_fastfood_white_36dp", resourceCulture);
@@ -256,6 +276,26 @@ namespace BacanaBurguesCrud.Properties {
         internal static System.Drawing.Bitmap outline_phone_callback_white_24dp {
             get {
                 object obj = ResourceManager.GetObject("outline_phone_callback_white_24dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_phone_disabled_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_phone_disabled_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_phone_disabled_black_24dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_phone_disabled_black_24dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

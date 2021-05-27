@@ -89,6 +89,7 @@ namespace BacanaBurguesCrud
             this.metroTile3.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
             this.metroTile3.UseSelectable = true;
             this.metroTile3.UseTileImage = true;
+            this.metroTile3.Click += new System.EventHandler(this.metroTile3_Click);
             // 
             // metroTile2
             // 

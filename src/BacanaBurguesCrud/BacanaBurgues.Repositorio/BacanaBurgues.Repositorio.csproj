@@ -45,6 +45,7 @@
     <Compile Include="RepositorioDeCliente.cs" />
     <Compile Include="RepositorioDeProduto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositorioDeTelefonesUteis.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BacanasBurgues.Entidades\BacanasBurgues.Entidades.csproj">

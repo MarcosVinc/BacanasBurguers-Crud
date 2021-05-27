@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BacanaBurgues.Repositorio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +46,9 @@ namespace BacanaBurguesCrud
             CalcularProdutos novaform = new CalcularProdutos();
             novaform.Show();
 
+           
+            
+
         }
 
         private void metroPanel1_Paint(object sender, PaintEventArgs e)
@@ -55,6 +59,12 @@ namespace BacanaBurguesCrud
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void metroTile3_Click(object sender, EventArgs e)
+        {
+            TelaTelefonesUteis novaform = new TelaTelefonesUteis();
+            novaform.Show();
         }
     }
 }
