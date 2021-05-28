@@ -81,31 +81,25 @@
     <Compile Include="BacanaBurgues.Designer.cs">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
     </Compile>
-    <Compile Include="CalcularProdutos.cs">
+    <Compile Include="TelaCalcularProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CalcularProdutos.Designer.cs">
-      <DependentUpon>CalcularProdutos.cs</DependentUpon>
+    <Compile Include="TelaCalcularProdutos.Designer.cs">
+      <DependentUpon>TelaCalcularProdutos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TelaCadastrar.cs">
+    <Compile Include="TelaProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaCadastrar.Designer.cs">
-      <DependentUpon>TelaCadastrar.cs</DependentUpon>
+    <Compile Include="TelaProdutos.Designer.cs">
+      <DependentUpon>TelaProdutos.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TelaCliente.Designer.cs">
       <DependentUpon>TelaCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TelaProduto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TelaProduto.Designer.cs">
-      <DependentUpon>TelaProduto.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaTelefonesUteis.cs">
       <SubType>Form</SubType>
@@ -128,8 +122,8 @@
     <EmbeddedResource Include="BacanaBurgues.resx">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CalcularProdutos.resx">
-      <DependentUpon>CalcularProdutos.cs</DependentUpon>
+    <EmbeddedResource Include="TelaCalcularProdutos.resx">
+      <DependentUpon>TelaCalcularProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -141,14 +135,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TelaCadastrar.resx">
-      <DependentUpon>TelaCadastrar.cs</DependentUpon>
+    <EmbeddedResource Include="TelaProdutos.resx">
+      <DependentUpon>TelaProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaCliente.resx">
       <DependentUpon>TelaCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TelaProduto.resx">
-      <DependentUpon>TelaProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaTelefonesUteis.resx">
       <DependentUpon>TelaTelefonesUteis.cs</DependentUpon>
@@ -260,6 +251,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\outline_phone_disabled_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_replay_black_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

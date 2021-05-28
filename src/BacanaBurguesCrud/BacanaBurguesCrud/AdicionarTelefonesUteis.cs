@@ -32,7 +32,7 @@ namespace BacanaBurguesCrud
             _telefonesuteis.Nome = txtNomeTelefonesUteis.Text;
             _telefonesuteis.Telefone = txtTelefonesUteis.Text;
             repositorio.Salvar(_telefonesuteis);
-            /*MessageBox.Show(repositorio.mensagem);*/
+            MessageBox.Show(repositorio.mensagem);
         }
 
         private void txtNomes(object sender, EventArgs e)

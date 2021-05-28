@@ -48,16 +48,17 @@ namespace BacanaBurguesCrud
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(9, 31);
+            this.metroLabel1.Location = new System.Drawing.Point(276, 14);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(93, 19);
             this.metroLabel1.TabIndex = 0;
             this.metroLabel1.Text = "Novo Produto";
+            this.metroLabel1.Click += new System.EventHandler(this.metroLabel1_Click);
             // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(207, 81);
+            this.metroLabel2.Location = new System.Drawing.Point(159, 50);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(46, 19);
             this.metroLabel2.TabIndex = 2;
@@ -69,7 +70,7 @@ namespace BacanaBurguesCrud
             // 
             // 
             this.txtNome.CustomButton.Image = null;
-            this.txtNome.CustomButton.Location = new System.Drawing.Point(538, 1);
+            this.txtNome.CustomButton.Location = new System.Drawing.Point(50, 1);
             this.txtNome.CustomButton.Name = "";
             this.txtNome.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.txtNome.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -78,7 +79,7 @@ namespace BacanaBurguesCrud
             this.txtNome.CustomButton.UseSelectable = true;
             this.txtNome.CustomButton.Visible = false;
             this.txtNome.Lines = new string[0];
-            this.txtNome.Location = new System.Drawing.Point(207, 103);
+            this.txtNome.Location = new System.Drawing.Point(159, 72);
             this.txtNome.MaxLength = 32767;
             this.txtNome.Name = "txtNome";
             this.txtNome.PasswordChar = '\0';
@@ -87,7 +88,7 @@ namespace BacanaBurguesCrud
             this.txtNome.SelectionLength = 0;
             this.txtNome.SelectionStart = 0;
             this.txtNome.ShortcutsEnabled = true;
-            this.txtNome.Size = new System.Drawing.Size(560, 23);
+            this.txtNome.Size = new System.Drawing.Size(348, 23);
             this.txtNome.TabIndex = 3;
             this.txtNome.UseSelectable = true;
             this.txtNome.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -97,7 +98,7 @@ namespace BacanaBurguesCrud
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(207, 149);
+            this.metroLabel3.Location = new System.Drawing.Point(330, 114);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(82, 19);
             this.metroLabel3.TabIndex = 4;
@@ -119,7 +120,7 @@ namespace BacanaBurguesCrud
             this.txtPreco.CustomButton.UseSelectable = true;
             this.txtPreco.CustomButton.Visible = false;
             this.txtPreco.Lines = new string[0];
-            this.txtPreco.Location = new System.Drawing.Point(687, 268);
+            this.txtPreco.Location = new System.Drawing.Point(330, 217);
             this.txtPreco.MaxLength = 32767;
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.PasswordChar = '\0';
@@ -137,7 +138,7 @@ namespace BacanaBurguesCrud
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(207, 213);
+            this.metroLabel4.Location = new System.Drawing.Point(159, 189);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(52, 19);
             this.metroLabel4.TabIndex = 6;
@@ -149,6 +150,8 @@ namespace BacanaBurguesCrud
             this.cbLucro.FormattingEnabled = true;
             this.cbLucro.ItemHeight = 23;
             this.cbLucro.Items.AddRange(new object[] {
+            "0",
+            "3",
             "5",
             "10",
             "15",
@@ -169,7 +172,7 @@ namespace BacanaBurguesCrud
             "90",
             "95",
             "100"});
-            this.cbLucro.Location = new System.Drawing.Point(207, 235);
+            this.cbLucro.Location = new System.Drawing.Point(159, 211);
             this.cbLucro.Name = "cbLucro";
             this.cbLucro.Size = new System.Drawing.Size(121, 29);
             this.cbLucro.TabIndex = 8;
@@ -179,11 +182,12 @@ namespace BacanaBurguesCrud
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(718, 237);
+            this.metroLabel5.Location = new System.Drawing.Point(330, 189);
             this.metroLabel5.Name = "metroLabel5";
             this.metroLabel5.Size = new System.Drawing.Size(43, 19);
             this.metroLabel5.TabIndex = 9;
             this.metroLabel5.Text = "Preço";
+            this.metroLabel5.Click += new System.EventHandler(this.metroLabel5_Click);
             // 
             // txtQuantidade
             // 
@@ -191,7 +195,7 @@ namespace BacanaBurguesCrud
             // 
             // 
             this.txtQuantidade.CustomButton.Image = null;
-            this.txtQuantidade.CustomButton.Location = new System.Drawing.Point(371, 1);
+            this.txtQuantidade.CustomButton.Location = new System.Drawing.Point(86, 1);
             this.txtQuantidade.CustomButton.Name = "";
             this.txtQuantidade.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.txtQuantidade.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -200,7 +204,7 @@ namespace BacanaBurguesCrud
             this.txtQuantidade.CustomButton.UseSelectable = true;
             this.txtQuantidade.CustomButton.Visible = false;
             this.txtQuantidade.Lines = new string[0];
-            this.txtQuantidade.Location = new System.Drawing.Point(207, 171);
+            this.txtQuantidade.Location = new System.Drawing.Point(330, 142);
             this.txtQuantidade.MaxLength = 32767;
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.PasswordChar = '\0';
@@ -209,7 +213,7 @@ namespace BacanaBurguesCrud
             this.txtQuantidade.SelectionLength = 0;
             this.txtQuantidade.SelectionStart = 0;
             this.txtQuantidade.ShortcutsEnabled = true;
-            this.txtQuantidade.Size = new System.Drawing.Size(393, 23);
+            this.txtQuantidade.Size = new System.Drawing.Size(108, 23);
             this.txtQuantidade.TabIndex = 12;
             this.txtQuantidade.UseSelectable = true;
             this.txtQuantidade.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -220,20 +224,21 @@ namespace BacanaBurguesCrud
             this.cbTipo.FormattingEnabled = true;
             this.cbTipo.ItemHeight = 23;
             this.cbTipo.Items.AddRange(new object[] {
-            "A",
-            "B",
-            "C",
-            "D"});
-            this.cbTipo.Location = new System.Drawing.Point(642, 171);
+            "Sanduíche",
+            "Bebidas",
+            "Ingredientes",
+            "Outros"});
+            this.cbTipo.Location = new System.Drawing.Point(159, 136);
             this.cbTipo.Name = "cbTipo";
             this.cbTipo.Size = new System.Drawing.Size(121, 29);
             this.cbTipo.TabIndex = 14;
             this.cbTipo.UseSelectable = true;
+            this.cbTipo.SelectedIndexChanged += new System.EventHandler(this.cbTipo_SelectedIndexChanged);
             // 
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(642, 149);
+            this.metroLabel6.Location = new System.Drawing.Point(159, 114);
             this.metroLabel6.Name = "metroLabel6";
             this.metroLabel6.Size = new System.Drawing.Size(35, 19);
             this.metroLabel6.TabIndex = 13;
@@ -242,7 +247,7 @@ namespace BacanaBurguesCrud
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(706, 31);
+            this.button1.Location = new System.Drawing.Point(432, 266);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
@@ -253,9 +258,9 @@ namespace BacanaBurguesCrud
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BacanaBurguesCrud.Properties.Resources.baseline_local_dining_black_36dp1;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 63);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 63);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(169, 201);
+            this.pictureBox1.Size = new System.Drawing.Size(137, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -265,7 +270,7 @@ namespace BacanaBurguesCrud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 302);
+            this.ClientSize = new System.Drawing.Size(530, 312);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbTipo);
             this.Controls.Add(this.metroLabel6);
@@ -280,9 +285,8 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.metroLabel1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(815, 302);
-            this.MinimumSize = new System.Drawing.Size(815, 302);
-            this.Movable = false;
+            this.MaximumSize = new System.Drawing.Size(530, 312);
+            this.MinimumSize = new System.Drawing.Size(530, 312);
             this.Name = "AdicionarProdutos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Style = MetroFramework.MetroColorStyle.Orange;

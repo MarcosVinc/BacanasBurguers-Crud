@@ -34,10 +34,11 @@ namespace BacanaBurguesCrud
             this.metroTile5 = new MetroFramework.Controls.MetroTile();
             this.metroTile4 = new MetroFramework.Controls.MetroTile();
             this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroTile2 = new MetroFramework.Controls.MetroTile();
             this.metroTile1 = new MetroFramework.Controls.MetroTile();
-            this.metroTile7 = new MetroFramework.Controls.MetroTile();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // metroTile6
@@ -46,6 +47,7 @@ namespace BacanaBurguesCrud
             this.metroTile6.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.metroTile6, "metroTile6");
             this.metroTile6.Name = "metroTile6";
+            this.metroTile6.Style = MetroFramework.MetroColorStyle.Lime;
             this.metroTile6.TileImage = global::BacanaBurguesCrud.Properties.Resources.outline_settings_white_36dp;
             this.metroTile6.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.metroTile6.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -71,6 +73,7 @@ namespace BacanaBurguesCrud
             this.metroTile4.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.metroTile4, "metroTile4");
             this.metroTile4.Name = "metroTile4";
+            this.metroTile4.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroTile4.TileImage = global::BacanaBurguesCrud.Properties.Resources.outline_groups_white_36dp;
             this.metroTile4.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTile4.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -84,6 +87,7 @@ namespace BacanaBurguesCrud
             this.metroTile3.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.metroTile3, "metroTile3");
             this.metroTile3.Name = "metroTile3";
+            this.metroTile3.Style = MetroFramework.MetroColorStyle.Pink;
             this.metroTile3.TileImage = global::BacanaBurguesCrud.Properties.Resources.outline_phone_callback_white_24dp;
             this.metroTile3.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTile3.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -91,26 +95,13 @@ namespace BacanaBurguesCrud
             this.metroTile3.UseTileImage = true;
             this.metroTile3.Click += new System.EventHandler(this.metroTile3_Click);
             // 
-            // metroTile2
-            // 
-            this.metroTile2.ActiveControl = null;
-            this.metroTile2.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroTile2, "metroTile2");
-            this.metroTile2.Name = "metroTile2";
-            this.metroTile2.TileImage = global::BacanaBurguesCrud.Properties.Resources.outline_storefront_white_48dp;
-            this.metroTile2.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile2.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.metroTile2.UseSelectable = true;
-            this.metroTile2.UseTileImage = true;
-            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
-            // 
             // metroTile1
             // 
             this.metroTile1.ActiveControl = null;
             this.metroTile1.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.metroTile1, "metroTile1");
             this.metroTile1.Name = "metroTile1";
-            this.metroTile1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTile1.Style = MetroFramework.MetroColorStyle.Orange;
             this.metroTile1.TileImage = global::BacanaBurguesCrud.Properties.Resources.outline_fastfood_white_36dp;
             this.metroTile1.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTile1.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
@@ -118,33 +109,45 @@ namespace BacanaBurguesCrud
             this.metroTile1.UseTileImage = true;
             this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
             // 
-            // metroTile7
-            // 
-            this.metroTile7.ActiveControl = null;
-            this.metroTile7.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.metroTile7, "metroTile7");
-            this.metroTile7.Name = "metroTile7";
-            this.metroTile7.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
-            this.metroTile7.UseSelectable = true;
-            // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label3.Name = "label3";
             // 
             // BacanaBurgues
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.metroTile7);
             this.Controls.Add(this.metroTile1);
             this.Controls.Add(this.metroTile6);
             this.Controls.Add(this.metroTile5);
             this.Controls.Add(this.metroTile4);
             this.Controls.Add(this.metroTile3);
-            this.Controls.Add(this.metroTile2);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.MaximizeBox = false;
             this.Movable = false;
@@ -152,18 +155,20 @@ namespace BacanaBurguesCrud
             this.Style = MetroFramework.MetroColorStyle.Default;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
         private MetroFramework.Controls.MetroTile metroTile1;
-        private MetroFramework.Controls.MetroTile metroTile2;
         private MetroFramework.Controls.MetroTile metroTile3;
         private MetroFramework.Controls.MetroTile metroTile4;
         private MetroFramework.Controls.MetroTile metroTile5;
         private MetroFramework.Controls.MetroTile metroTile6;
-        private MetroFramework.Controls.MetroTile metroTile7;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

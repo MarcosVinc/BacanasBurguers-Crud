@@ -72,5 +72,20 @@ namespace BacanaBurguesCrud
         {
 
         }
+
+        private void cbTipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

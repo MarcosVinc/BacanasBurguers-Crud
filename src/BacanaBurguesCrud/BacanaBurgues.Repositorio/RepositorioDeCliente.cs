@@ -41,5 +41,43 @@ namespace BacanaBurgues.Repositorio
             }
       
         }
+        public List<Cliente> Consulta()
+        {
+            var clientes  = new List<Cliente>();
+
+            cmd.CommandText = "select * from Cliente";
+
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                SqlDataReader read = cmd.ExecuteReader();
+                //executar comando
+                while (read.Read())
+                {
+                    Cliente x = new Cliente();
+                    x.Identificador = (string)read["Identificador"];
+                    x.Nome = (string)read["Nome"];
+                    x.Endereco = (string)read["Endereco"];
+                    x.Telefone = (string)read["Telefone"];
+                    x.Cep = int.Parse(read["Cep"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
+                    
+                    clientes.Add(x);
+                }
+
+                read.Close();
+                //desconectar
+                conexao.desconectar();
+                // mostrar mensagem de erro ou sucesso
+                this.mensagem = "Cadastrado com sucesso";
+
+            }
+            catch (SqlException e)
+            {
+                this.mensagem = e.Message;
+            }
+
+            return clientes;
+
+        }
     }
 }

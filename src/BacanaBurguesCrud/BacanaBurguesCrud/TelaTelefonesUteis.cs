@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BacanaBurgues.Repositorio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,13 +27,27 @@ namespace BacanaBurguesCrud
 
         private void TelaTelefonesUteis_Load(object sender, EventArgs e)
         {
-
+            var x = new RepositorioDeTelefonesUteis();
+            var produtos = x.Consulta();
+            gwTelefonesUteis.DataSource = produtos;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             AdicionarTelefonesUteis novaform = new AdicionarTelefonesUteis();
             novaform.Show();
+        }
+
+        private void gwTelefonesUteis_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            var x = new RepositorioDeTelefonesUteis();
+            var produtos = x.Consulta();
+            gwTelefonesUteis.DataSource = produtos;
         }
     }
 }

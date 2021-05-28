@@ -1,5 +1,4 @@
-﻿using BacanaBurgues.Repositorio;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,12 +10,16 @@ using System.Windows.Forms;
 
 namespace BacanaBurguesCrud
 {
-    public partial class TelaProduto : MetroFramework.Forms.MetroForm
+    public partial class TelaCalcularProdutos : MetroFramework.Forms.MetroForm
     {
-        public TelaProduto()
+        public TelaCalcularProdutos()
         {
             InitializeComponent();
-            CarregarProdutos();
+        }
+
+        private void CalcularProdutos_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -26,13 +29,8 @@ namespace BacanaBurguesCrud
             f.Closed += (s, args) => this.Close();
         }
 
-        private void CarregarProdutos() 
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
-            var x = new RepositorioDeProduto();           
-            var produtos = x.Consulta();
-            dataGridView1.DataSource = produtos;
-
-
 
         }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BacanaBurgues.Repositorio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,20 @@ namespace BacanaBurguesCrud
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void TelaCliente_Load(object sender, EventArgs e)
+        {
+            var x = new RepositorioDeCliente();
+            var produtos = x.Consulta();
+            gwCliente.DataSource = produtos;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var x = new RepositorioDeCliente();
+            var produtos = x.Consulta();
+            gwCliente.DataSource = produtos;
         }
     }
 }

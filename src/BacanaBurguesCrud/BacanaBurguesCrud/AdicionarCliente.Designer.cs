@@ -49,7 +49,7 @@ namespace BacanaBurguesCrud
             // 
             // 
             this.txtNome.CustomButton.Image = null;
-            this.txtNome.CustomButton.Location = new System.Drawing.Point(538, 1);
+            this.txtNome.CustomButton.Location = new System.Drawing.Point(317, 1);
             this.txtNome.CustomButton.Name = "";
             this.txtNome.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.txtNome.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -58,7 +58,7 @@ namespace BacanaBurguesCrud
             this.txtNome.CustomButton.UseSelectable = true;
             this.txtNome.CustomButton.Visible = false;
             this.txtNome.Lines = new string[0];
-            this.txtNome.Location = new System.Drawing.Point(186, 154);
+            this.txtNome.Location = new System.Drawing.Point(124, 109);
             this.txtNome.MaxLength = 32767;
             this.txtNome.Name = "txtNome";
             this.txtNome.PasswordChar = '\0';
@@ -67,7 +67,7 @@ namespace BacanaBurguesCrud
             this.txtNome.SelectionLength = 0;
             this.txtNome.SelectionStart = 0;
             this.txtNome.ShortcutsEnabled = true;
-            this.txtNome.Size = new System.Drawing.Size(560, 23);
+            this.txtNome.Size = new System.Drawing.Size(339, 23);
             this.txtNome.TabIndex = 4;
             this.txtNome.UseSelectable = true;
             this.txtNome.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -79,7 +79,7 @@ namespace BacanaBurguesCrud
             // 
             // 
             this.txtTelefone.CustomButton.Image = null;
-            this.txtTelefone.CustomButton.Location = new System.Drawing.Point(180, 1);
+            this.txtTelefone.CustomButton.Location = new System.Drawing.Point(88, 1);
             this.txtTelefone.CustomButton.Name = "";
             this.txtTelefone.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.txtTelefone.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -88,7 +88,7 @@ namespace BacanaBurguesCrud
             this.txtTelefone.CustomButton.UseSelectable = true;
             this.txtTelefone.CustomButton.Visible = false;
             this.txtTelefone.Lines = new string[0];
-            this.txtTelefone.Location = new System.Drawing.Point(544, 108);
+            this.txtTelefone.Location = new System.Drawing.Point(124, 254);
             this.txtTelefone.MaxLength = 32767;
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.PasswordChar = '\0';
@@ -97,7 +97,7 @@ namespace BacanaBurguesCrud
             this.txtTelefone.SelectionLength = 0;
             this.txtTelefone.SelectionStart = 0;
             this.txtTelefone.ShortcutsEnabled = true;
-            this.txtTelefone.Size = new System.Drawing.Size(202, 23);
+            this.txtTelefone.Size = new System.Drawing.Size(110, 23);
             this.txtTelefone.TabIndex = 13;
             this.txtTelefone.UseSelectable = true;
             this.txtTelefone.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -109,7 +109,7 @@ namespace BacanaBurguesCrud
             // 
             // 
             this.txtEndereco.CustomButton.Image = null;
-            this.txtEndereco.CustomButton.Location = new System.Drawing.Point(402, 1);
+            this.txtEndereco.CustomButton.Location = new System.Drawing.Point(163, 1);
             this.txtEndereco.CustomButton.Name = "";
             this.txtEndereco.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.txtEndereco.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -118,7 +118,7 @@ namespace BacanaBurguesCrud
             this.txtEndereco.CustomButton.UseSelectable = true;
             this.txtEndereco.CustomButton.Visible = false;
             this.txtEndereco.Lines = new string[0];
-            this.txtEndereco.Location = new System.Drawing.Point(186, 222);
+            this.txtEndereco.Location = new System.Drawing.Point(124, 180);
             this.txtEndereco.MaxLength = 32767;
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.PasswordChar = '\0';
@@ -127,7 +127,7 @@ namespace BacanaBurguesCrud
             this.txtEndereco.SelectionLength = 0;
             this.txtEndereco.SelectionStart = 0;
             this.txtEndereco.ShortcutsEnabled = true;
-            this.txtEndereco.Size = new System.Drawing.Size(424, 23);
+            this.txtEndereco.Size = new System.Drawing.Size(185, 23);
             this.txtEndereco.TabIndex = 14;
             this.txtEndereco.UseSelectable = true;
             this.txtEndereco.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -136,7 +136,7 @@ namespace BacanaBurguesCrud
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(186, 123);
+            this.metroLabel2.Location = new System.Drawing.Point(124, 78);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(46, 19);
             this.metroLabel2.TabIndex = 15;
@@ -145,7 +145,7 @@ namespace BacanaBurguesCrud
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(186, 189);
+            this.metroLabel1.Location = new System.Drawing.Point(124, 147);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(64, 19);
             this.metroLabel1.TabIndex = 16;
@@ -154,7 +154,7 @@ namespace BacanaBurguesCrud
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(544, 76);
+            this.metroLabel3.Location = new System.Drawing.Point(124, 222);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(57, 19);
             this.metroLabel3.TabIndex = 17;
@@ -163,9 +163,9 @@ namespace BacanaBurguesCrud
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BacanaBurguesCrud.Properties.Resources.baseline_local_dining_black_36dp1;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 88);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 57);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 157);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 120);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -173,7 +173,7 @@ namespace BacanaBurguesCrud
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(671, 36);
+            this.metroButton1.Location = new System.Drawing.Point(432, 266);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.TabIndex = 19;
@@ -196,7 +196,7 @@ namespace BacanaBurguesCrud
             this.txtCEP.CustomButton.UseSelectable = true;
             this.txtCEP.CustomButton.Visible = false;
             this.txtCEP.Lines = new string[0];
-            this.txtCEP.Location = new System.Drawing.Point(634, 222);
+            this.txtCEP.Location = new System.Drawing.Point(351, 180);
             this.txtCEP.MaxLength = 32767;
             this.txtCEP.Name = "txtCEP";
             this.txtCEP.PasswordChar = '\0';
@@ -214,7 +214,7 @@ namespace BacanaBurguesCrud
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(671, 189);
+            this.metroLabel4.Location = new System.Drawing.Point(351, 147);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(33, 19);
             this.metroLabel4.TabIndex = 21;
@@ -223,7 +223,7 @@ namespace BacanaBurguesCrud
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(6, 50);
+            this.metroLabel5.Location = new System.Drawing.Point(6, 18);
             this.metroLabel5.Name = "metroLabel5";
             this.metroLabel5.Size = new System.Drawing.Size(85, 19);
             this.metroLabel5.TabIndex = 22;
@@ -234,7 +234,7 @@ namespace BacanaBurguesCrud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 302);
+            this.ClientSize = new System.Drawing.Size(530, 312);
             this.Controls.Add(this.metroLabel5);
             this.Controls.Add(this.metroLabel4);
             this.Controls.Add(this.txtCEP);
@@ -247,12 +247,13 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtNome);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(815, 302);
-            this.MinimumSize = new System.Drawing.Size(815, 302);
-            this.Movable = false;
+            this.MaximumSize = new System.Drawing.Size(530, 312);
+            this.MinimumSize = new System.Drawing.Size(530, 312);
             this.Name = "AdicionarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
             this.TransparencyKey = System.Drawing.SystemColors.Info;
+            this.Load += new System.EventHandler(this.AdicionarCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

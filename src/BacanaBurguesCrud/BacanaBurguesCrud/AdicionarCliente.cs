@@ -42,5 +42,10 @@ namespace BacanaBurguesCrud
         {
           
         }
+
+        private void AdicionarCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

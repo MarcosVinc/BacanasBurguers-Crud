@@ -140,7 +140,7 @@ namespace BacanaBurguesCrud
             this.MaximumSize = new System.Drawing.Size(401, 305);
             this.MinimumSize = new System.Drawing.Size(401, 305);
             this.Name = "AdicionarTelefonesUteis";
-            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Style = MetroFramework.MetroColorStyle.Pink;
             this.Load += new System.EventHandler(this.AdicionarTelefonesUteis_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

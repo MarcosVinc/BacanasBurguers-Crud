@@ -84,11 +84,8 @@ C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Deb
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.AdicionarCliente.resources
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.AdicionarProdutos.resources
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.BacanaBurgues.resources
-C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.CalcularProdutos.resources
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.Properties.Resources.resources
-C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaCadastrar.resources
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaCliente.resources
-C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaProduto.resources
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.BacanaBurgues.pt-BR.resources
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.csproj.GenerateResource.cache
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.csproj.CoreCompileInputs.cache
@@ -98,3 +95,5 @@ C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Deb
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.pdb
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaTelefonesUteis.resources
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.AdicionarTelefonesUteis.resources
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaProdutos.resources
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaCalcularProdutos.resources

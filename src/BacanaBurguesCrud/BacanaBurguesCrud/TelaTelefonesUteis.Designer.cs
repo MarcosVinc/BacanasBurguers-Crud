@@ -32,37 +32,60 @@ namespace BacanaBurguesCrud
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaTelefonesUteis));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.gwTelefonesUteis = new System.Windows.Forms.DataGridView();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.gwTelefonesUteis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DimGray;
-            this.panel1.Location = new System.Drawing.Point(46, 124);
+            this.panel1.BackColor = System.Drawing.Color.LightPink;
+            this.panel1.Location = new System.Drawing.Point(36, 109);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(59, 25);
+            this.panel1.Size = new System.Drawing.Size(65, 24);
             this.panel1.TabIndex = 14;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DimGray;
-            this.panel2.Location = new System.Drawing.Point(127, 124);
+            this.panel2.BackColor = System.Drawing.Color.LightPink;
+            this.panel2.Location = new System.Drawing.Point(117, 109);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(836, 25);
+            this.panel2.Size = new System.Drawing.Size(523, 24);
             this.panel2.TabIndex = 15;
+            // 
+            // gwTelefonesUteis
+            // 
+            this.gwTelefonesUteis.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.gwTelefonesUteis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gwTelefonesUteis.Location = new System.Drawing.Point(36, 140);
+            this.gwTelefonesUteis.Name = "gwTelefonesUteis";
+            this.gwTelefonesUteis.Size = new System.Drawing.Size(604, 361);
+            this.gwTelefonesUteis.TabIndex = 18;
+            this.gwTelefonesUteis.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gwTelefonesUteis_CellContentClick);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = global::BacanaBurguesCrud.Properties.Resources.outline_replay_black_18dp;
+            this.pictureBox4.Location = new System.Drawing.Point(602, 50);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(38, 39);
+            this.pictureBox4.TabIndex = 19;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::BacanaBurguesCrud.Properties.Resources.outline_phone_disabled_black_18dp;
-            this.pictureBox3.Location = new System.Drawing.Point(925, 63);
+            this.pictureBox3.Location = new System.Drawing.Point(541, 50);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(38, 39);
             this.pictureBox3.TabIndex = 17;
@@ -72,7 +95,7 @@ namespace BacanaBurguesCrud
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::BacanaBurguesCrud.Properties.Resources.outline_add_ic_call_black_18dp1;
-            this.pictureBox2.Location = new System.Drawing.Point(864, 63);
+            this.pictureBox2.Location = new System.Drawing.Point(480, 50);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(38, 39);
             this.pictureBox2.TabIndex = 16;
@@ -89,35 +112,30 @@ namespace BacanaBurguesCrud
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(46, 155);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(917, 368);
-            this.dataGridView1.TabIndex = 18;
-            // 
             // TelaTelefonesUteis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1022, 546);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(682, 524);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.gwTelefonesUteis);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1022, 546);
-            this.MinimumSize = new System.Drawing.Size(1022, 546);
+            this.MaximumSize = new System.Drawing.Size(682, 524);
+            this.MinimumSize = new System.Drawing.Size(682, 524);
+            this.Movable = false;
             this.Name = "TelaTelefonesUteis";
-            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Style = MetroFramework.MetroColorStyle.Pink;
             this.Load += new System.EventHandler(this.TelaTelefonesUteis_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gwTelefonesUteis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -129,6 +147,7 @@ namespace BacanaBurguesCrud
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView gwTelefonesUteis;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

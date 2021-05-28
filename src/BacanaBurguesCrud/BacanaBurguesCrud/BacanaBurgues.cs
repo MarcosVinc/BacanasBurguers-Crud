@@ -25,14 +25,12 @@ namespace BacanaBurguesCrud
 
         private void metroTile1_Click(object sender, EventArgs e)
         {
-            TelaCadastrar novaform = new TelaCadastrar();
+            TelaProdutos novaform = new TelaProdutos();
             novaform.Show();
         }
 
         private void metroTile2_Click(object sender, EventArgs e)
         {
-            TelaProduto novaform = new TelaProduto();
-            novaform.Show();
         }
 
         private void metroTile4_Click(object sender, EventArgs e)
@@ -43,7 +41,7 @@ namespace BacanaBurguesCrud
 
         private void metroTile5_Click(object sender, EventArgs e)
         {
-            CalcularProdutos novaform = new CalcularProdutos();
+            TelaCalcularProdutos novaform = new TelaCalcularProdutos();
             novaform.Show();
 
            

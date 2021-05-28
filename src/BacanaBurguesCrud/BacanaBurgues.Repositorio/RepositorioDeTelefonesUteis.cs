@@ -8,23 +8,19 @@ using System.Threading.Tasks;
 
 namespace BacanaBurgues.Repositorio
 {
-    public class RepositorioDeProduto
+    public class RepositorioDeTelefonesUteis
     {
         Conexao conexao = new Conexao();
         SqlCommand cmd = new SqlCommand();
         public string mensagem = "";
-        public void Salvar(Produto produto) 
+        public void Salvar(TelefonesUteis _telefonesuteis) 
         {
             //comando Sql --SqlComand
-            cmd.CommandText = "insert into Produtos values(@identificador, @nome,@tipo, @preco,@lucro, @quantidade)";
+            cmd.CommandText = "insert into TelefonesUteis values(@identificador, @nome,@telefone)";
             //parametros
-            cmd.Parameters.AddWithValue("@identificador", produto.Identificador);
-            cmd.Parameters.AddWithValue("@nome", produto.Nome);
-            cmd.Parameters.AddWithValue("@tipo", produto.Tipo);
-            cmd.Parameters.AddWithValue("@quantidade", produto.Quantidade);
-            cmd.Parameters.AddWithValue("@preco", produto.Preco);
-            cmd.Parameters.AddWithValue("@lucro", produto.Lucro);
-
+            cmd.Parameters.AddWithValue("@identificador", _telefonesuteis.Identificador);
+            cmd.Parameters.AddWithValue("@nome", _telefonesuteis.Nome);
+            cmd.Parameters.AddWithValue("@telefone", _telefonesuteis.Telefone);
             //conectar com banco -- Conexao
             try
             {
@@ -37,19 +33,16 @@ namespace BacanaBurgues.Repositorio
                 this.mensagem = "Cadastrado com sucesso";
 
             }
-            catch (SqlException e) 
+            catch (SqlException e)
             {
                 this.mensagem = e.Message;
             }
-
-        
         }
-
-        public List<Produto> Consulta() 
+        public List<TelefonesUteis> Consulta()
         {
-            var produto = new List<Produto>();
+            var telefonesuteis = new List<TelefonesUteis>();
 
-            cmd.CommandText = "select * from Produtos";
+            cmd.CommandText = "select * from TelefonesUteis";
 
             try
             {
@@ -58,16 +51,13 @@ namespace BacanaBurgues.Repositorio
                 //executar comando
                 while (read.Read())
                 {
-                    Produto x = new Produto();
+                    TelefonesUteis x = new TelefonesUteis();
                     x.Identificador = (string)read["Identificador"];
                     x.Nome = (string)read["Nome"];
-                    x.Tipo = (string)read["Tipo"];
-                    x.Preco = double.Parse(read["Preco"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
-                    x.Lucro = int.Parse(read["lucro"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
-                    x.Quantidade = int.Parse(read["Quantidade"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
-                    produto.Add(x);
+                    x.Telefone = (string)read["Telefone"];
+                    telefonesuteis.Add(x);
                 }
-                
+
                 read.Close();
                 //desconectar
                 conexao.desconectar();
@@ -79,9 +69,9 @@ namespace BacanaBurgues.Repositorio
             {
                 this.mensagem = e.Message;
             }
-            
-            return produto;
-           
+
+            return telefonesuteis;
+
         }
 
     }
