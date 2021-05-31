@@ -47,5 +47,29 @@ namespace BacanaBurguesCrud
         {
 
         }
+
+        private void btAlterarCliente_Click(object sender, EventArgs e)
+        {
+            var cliente = new Cliente();
+            var repositorio = new RepositorioDeCliente();
+
+
+            cliente.Identificador = txtIDCliente.Text;
+            cliente.Nome = txtNome.Text;
+            cliente.Endereco = txtEndereco.Text;
+            cliente.Telefone = txtTelefone.Text;
+            cliente.Cep = int.Parse(txtCEP.Text);
+            repositorio.Alterar(cliente);
+            MessageBox.Show(repositorio.mensagem);
+        }
+
+        private void btExcluir_Click(object sender, EventArgs e)
+        {
+            var cliente = new Cliente();
+            var repositorio = new RepositorioDeCliente();
+            cliente.Identificador = txtIDCliente.Text;
+            repositorio.Deletar(cliente);
+            MessageBox.Show(repositorio.mensagem);
+        }
     }
 }

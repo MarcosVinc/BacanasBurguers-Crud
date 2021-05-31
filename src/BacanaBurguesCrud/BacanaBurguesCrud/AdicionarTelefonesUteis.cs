@@ -39,5 +39,27 @@ namespace BacanaBurguesCrud
         {
 
         }
+
+        private void btAlterar_Click(object sender, EventArgs e)
+        {
+            var telefone = new TelefonesUteis();
+            var repositorio = new RepositorioDeTelefonesUteis();
+
+
+            telefone.Identificador = txtID.Text;
+            telefone.Nome = txtNomeTelefonesUteis.Text;
+            telefone.Telefone = txtTelefonesUteis.Text;
+            repositorio.Alterar(telefone);
+            MessageBox.Show(repositorio.mensagem);
+        }
+
+        private void btExcluir_Click(object sender, EventArgs e)
+        {
+            var telefones = new TelefonesUteis();
+            var repositorio = new RepositorioDeTelefonesUteis();
+            telefones.Identificador = txtID.Text;
+            repositorio.Deletar(telefones);
+            MessageBox.Show(repositorio.mensagem);
+        }
     }
 }

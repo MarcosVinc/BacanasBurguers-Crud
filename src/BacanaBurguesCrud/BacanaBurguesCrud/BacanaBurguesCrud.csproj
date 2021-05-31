@@ -88,12 +88,6 @@
     <Compile Include="BacanaBurgues.Designer.cs">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="TelaCalcularProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,9 +128,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BacanaBurgues.resx">
       <DependentUpon>BacanaBurgues.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaCalcularProdutos.resx">
       <DependentUpon>TelaCalcularProdutos.cs</DependentUpon>

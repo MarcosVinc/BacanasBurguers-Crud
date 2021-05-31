@@ -79,5 +79,61 @@ namespace BacanaBurgues.Repositorio
             return clientes;
 
         }
+
+        public void Alterar(Cliente alterarCliente)
+        {
+            //comando Sql --SqlComand
+            cmd.CommandText = "update Cliente set Nome = @nome, Endereco = @endereco, Telefone = @telefone , Cep = @cep where Identificador = @identificador";
+            //parametros
+            cmd.Parameters.AddWithValue("@identificador", alterarCliente.Identificador);
+            cmd.Parameters.AddWithValue("@nome", alterarCliente.Nome);
+            cmd.Parameters.AddWithValue("@endereco", alterarCliente.Endereco);
+            cmd.Parameters.AddWithValue("@telefone", alterarCliente.Telefone);
+            cmd.Parameters.AddWithValue("@cep", alterarCliente.Cep);
+
+            //conectar com banco -- Conexao
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                //executar comando
+                cmd.ExecuteNonQuery();
+                //desconectar
+                conexao.desconectar();
+                // mostrar mensagem de erro ou sucesso
+                this.mensagem = "alterada com sucasso";
+
+            }
+            catch (SqlException e)
+            {
+                this.mensagem = e.Message;
+            }
+
+        }
+
+        public void Deletar(Cliente deletarCliente)
+        {
+            //comando Sql --SqlComand
+            cmd.CommandText = "DELETE FROM Cliente WHERE Identificador = @identificador;"; ;
+            //parametros
+            cmd.Parameters.AddWithValue("@identificador", deletarCliente.Identificador);
+
+            //conectar com banco -- Conexao
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                //executar comando
+                cmd.ExecuteNonQuery();
+                //desconectar
+                conexao.desconectar();
+                // mostrar mensagem de erro ou sucesso
+                this.mensagem = "Excluida com sucesso";
+
+            }
+            catch (SqlException e)
+            {
+                this.mensagem = e.Message;
+            }
+
+        }
     }
 }

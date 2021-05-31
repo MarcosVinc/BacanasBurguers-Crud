@@ -73,6 +73,59 @@ namespace BacanaBurgues.Repositorio
             return telefonesuteis;
 
         }
+        public void Alterar(TelefonesUteis alterartelefones)
+        {
+            //comando Sql --SqlComand
+            cmd.CommandText = "update TelefonesUteis set Nome = @nome, Telefone = @telefone where Identificador = @identificador";
+            //parametros
+            cmd.Parameters.AddWithValue("@identificador", alterartelefones.Identificador);
+            cmd.Parameters.AddWithValue("@nome", alterartelefones.Nome);
+            cmd.Parameters.AddWithValue("@telefone", alterartelefones.Telefone);
+
+            //conectar com banco -- Conexao
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                //executar comando
+                cmd.ExecuteNonQuery();
+                //desconectar
+                conexao.desconectar();
+                // mostrar mensagem de erro ou sucesso
+                this.mensagem = "alterada com sucasso";
+
+            }
+            catch (SqlException e)
+            {
+                this.mensagem = e.Message;
+            }
+
+        }
+
+        public void Deletar(TelefonesUteis deletarTelefones)
+        {
+            //comando Sql --SqlComand
+            cmd.CommandText = "DELETE FROM TelefonesUteis WHERE Identificador = @identificador;"; ;
+            //parametros
+            cmd.Parameters.AddWithValue("@identificador", deletarTelefones.Identificador);
+
+            //conectar com banco -- Conexao
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                //executar comando
+                cmd.ExecuteNonQuery();
+                //desconectar
+                conexao.desconectar();
+                // mostrar mensagem de erro ou sucesso
+                this.mensagem = "Excluida com sucesso";
+
+            }
+            catch (SqlException e)
+            {
+                this.mensagem = e.Message;
+            }
+
+        }
 
     }
 }

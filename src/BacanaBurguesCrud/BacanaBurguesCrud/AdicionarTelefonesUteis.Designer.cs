@@ -33,7 +33,11 @@ namespace BacanaBurguesCrud
             this.txtTelefonesUteis = new MetroFramework.Controls.MetroTextBox();
             this.Nome = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btSalvar = new System.Windows.Forms.Button();
+            this.btExcluir = new System.Windows.Forms.Button();
+            this.btAlterar = new System.Windows.Forms.Button();
+            this.lbTitulo = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtNomeTelefonesUteis
@@ -51,7 +55,7 @@ namespace BacanaBurguesCrud
             this.txtNomeTelefonesUteis.CustomButton.UseSelectable = true;
             this.txtNomeTelefonesUteis.CustomButton.Visible = false;
             this.txtNomeTelefonesUteis.Lines = new string[0];
-            this.txtNomeTelefonesUteis.Location = new System.Drawing.Point(109, 154);
+            this.txtNomeTelefonesUteis.Location = new System.Drawing.Point(109, 118);
             this.txtNomeTelefonesUteis.MaxLength = 32767;
             this.txtNomeTelefonesUteis.Name = "txtNomeTelefonesUteis";
             this.txtNomeTelefonesUteis.PasswordChar = '\0';
@@ -82,7 +86,7 @@ namespace BacanaBurguesCrud
             this.txtTelefonesUteis.CustomButton.UseSelectable = true;
             this.txtTelefonesUteis.CustomButton.Visible = false;
             this.txtTelefonesUteis.Lines = new string[0];
-            this.txtTelefonesUteis.Location = new System.Drawing.Point(109, 198);
+            this.txtTelefonesUteis.Location = new System.Drawing.Point(109, 162);
             this.txtTelefonesUteis.MaxLength = 32767;
             this.txtTelefonesUteis.Name = "txtTelefonesUteis";
             this.txtTelefonesUteis.PasswordChar = '\0';
@@ -100,7 +104,7 @@ namespace BacanaBurguesCrud
             // Nome
             // 
             this.Nome.AutoSize = true;
-            this.Nome.Location = new System.Drawing.Point(23, 154);
+            this.Nome.Location = new System.Drawing.Point(23, 118);
             this.Nome.Name = "Nome";
             this.Nome.Size = new System.Drawing.Size(46, 19);
             this.Nome.TabIndex = 2;
@@ -109,29 +113,75 @@ namespace BacanaBurguesCrud
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(23, 198);
+            this.metroLabel1.Location = new System.Drawing.Point(23, 162);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(57, 19);
             this.metroLabel1.TabIndex = 3;
             this.metroLabel1.Text = "Telefone";
             // 
-            // button1
+            // btSalvar
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(303, 259);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Salvar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btSalvar.Location = new System.Drawing.Point(303, 259);
+            this.btSalvar.Name = "btSalvar";
+            this.btSalvar.Size = new System.Drawing.Size(75, 23);
+            this.btSalvar.TabIndex = 4;
+            this.btSalvar.Text = "Salvar";
+            this.btSalvar.UseVisualStyleBackColor = true;
+            this.btSalvar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btExcluir
+            // 
+            this.btExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btExcluir.Location = new System.Drawing.Point(222, 259);
+            this.btExcluir.Name = "btExcluir";
+            this.btExcluir.Size = new System.Drawing.Size(75, 23);
+            this.btExcluir.TabIndex = 5;
+            this.btExcluir.Text = "Exlucir";
+            this.btExcluir.UseVisualStyleBackColor = true;
+            this.btExcluir.Visible = false;
+            this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
+            // 
+            // btAlterar
+            // 
+            this.btAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btAlterar.Location = new System.Drawing.Point(141, 259);
+            this.btAlterar.Name = "btAlterar";
+            this.btAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btAlterar.TabIndex = 6;
+            this.btAlterar.Text = "Alterar";
+            this.btAlterar.UseVisualStyleBackColor = true;
+            this.btAlterar.Visible = false;
+            this.btAlterar.Click += new System.EventHandler(this.btAlterar_Click);
+            // 
+            // lbTitulo
+            // 
+            this.lbTitulo.AutoSize = true;
+            this.lbTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTitulo.Location = new System.Drawing.Point(24, 12);
+            this.lbTitulo.Name = "lbTitulo";
+            this.lbTitulo.Size = new System.Drawing.Size(338, 39);
+            this.lbTitulo.TabIndex = 7;
+            this.lbTitulo.Text = "Add. Telefones Uteis";
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(23, 77);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(355, 20);
+            this.txtID.TabIndex = 8;
+            this.txtID.Visible = false;
             // 
             // AdicionarTelefonesUteis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(401, 305);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.lbTitulo);
+            this.Controls.Add(this.btAlterar);
+            this.Controls.Add(this.btExcluir);
+            this.Controls.Add(this.btSalvar);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.Nome);
             this.Controls.Add(this.txtTelefonesUteis);
@@ -148,11 +198,14 @@ namespace BacanaBurguesCrud
         }
 
         #endregion
-
-        private MetroFramework.Controls.MetroTextBox txtNomeTelefonesUteis;
-        private MetroFramework.Controls.MetroTextBox txtTelefonesUteis;
         private MetroFramework.Controls.MetroLabel Nome;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btSalvar;
+        public System.Windows.Forms.Button btExcluir;
+        public System.Windows.Forms.Button btAlterar;
+        public System.Windows.Forms.TextBox txtID;
+        public MetroFramework.Controls.MetroTextBox txtNomeTelefonesUteis;
+        public MetroFramework.Controls.MetroTextBox txtTelefonesUteis;
+        public System.Windows.Forms.Label lbTitulo;
     }
 }

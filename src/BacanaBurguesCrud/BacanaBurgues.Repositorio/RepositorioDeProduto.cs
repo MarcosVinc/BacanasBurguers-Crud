@@ -87,6 +87,11 @@ namespace BacanaBurgues.Repositorio
 
         }
 
+        public void Deletar(Cliente cliente)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Alterar(Produto alterarProduto)
         {
             //comando Sql --SqlComand

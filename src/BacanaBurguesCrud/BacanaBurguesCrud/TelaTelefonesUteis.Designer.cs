@@ -36,12 +36,10 @@ namespace BacanaBurguesCrud
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gwTelefonesUteis = new MetroFramework.Controls.MetroGrid();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gwTelefonesUteis)).BeginInit();
@@ -74,21 +72,11 @@ namespace BacanaBurguesCrud
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::BacanaBurguesCrud.Properties.Resources.outline_phone_disabled_black_18dp;
-            this.pictureBox3.Location = new System.Drawing.Point(541, 50);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(38, 39);
-            this.pictureBox3.TabIndex = 17;
-            this.pictureBox3.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::BacanaBurguesCrud.Properties.Resources.outline_add_ic_call_black_18dp1;
-            this.pictureBox2.Location = new System.Drawing.Point(480, 50);
+            this.pictureBox2.Location = new System.Drawing.Point(558, 50);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(38, 39);
             this.pictureBox2.TabIndex = 16;
@@ -130,6 +118,7 @@ namespace BacanaBurguesCrud
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gwTelefonesUteis.DefaultCellStyle = dataGridViewCellStyle2;
+            this.gwTelefonesUteis.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.gwTelefonesUteis.EnableHeadersVisualStyles = false;
             this.gwTelefonesUteis.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.gwTelefonesUteis.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -149,6 +138,7 @@ namespace BacanaBurguesCrud
             this.gwTelefonesUteis.Size = new System.Drawing.Size(604, 341);
             this.gwTelefonesUteis.Style = MetroFramework.MetroColorStyle.Pink;
             this.gwTelefonesUteis.TabIndex = 20;
+            this.gwTelefonesUteis.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gwTelefonesUteis_CellContentDoubleClick);
             // 
             // TelaTelefonesUteis
             // 
@@ -157,7 +147,6 @@ namespace BacanaBurguesCrud
             this.ClientSize = new System.Drawing.Size(682, 524);
             this.Controls.Add(this.gwTelefonesUteis);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -170,7 +159,6 @@ namespace BacanaBurguesCrud
             this.Style = MetroFramework.MetroColorStyle.Pink;
             this.Load += new System.EventHandler(this.TelaTelefonesUteis_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gwTelefonesUteis)).EndInit();
@@ -184,7 +172,6 @@ namespace BacanaBurguesCrud
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private MetroFramework.Controls.MetroGrid gwTelefonesUteis;
     }

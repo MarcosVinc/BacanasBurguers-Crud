@@ -49,5 +49,19 @@ namespace BacanaBurguesCrud
             var produtos = x.Consulta();
             gwTelefonesUteis.DataSource = produtos;
         }
+
+        private void gwTelefonesUteis_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            AdicionarTelefonesUteis f1 = new AdicionarTelefonesUteis();
+            var titulo = "Atualizar dados";
+            f1.btAlterar.Visible = true;
+            f1.btExcluir.Visible = true;
+            /* f1.txtID.Visible = true;*/
+            f1.lbTitulo.Text = titulo;
+            f1.txtID.Text = this.gwTelefonesUteis.CurrentRow.Cells[0].Value.ToString();
+            f1.txtNomeTelefonesUteis.Text = this.gwTelefonesUteis.CurrentRow.Cells[1].Value.ToString();
+            f1.txtTelefonesUteis.Text = this.gwTelefonesUteis.CurrentRow.Cells[2].Value.ToString();
+            f1.ShowDialog();
+        }
     }
 }
