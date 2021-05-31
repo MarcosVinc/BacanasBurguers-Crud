@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,9 +15,12 @@ namespace BacanaBurguesCrud
 {
     public partial class AdicionarProdutos : MetroFramework.Forms.MetroForm
     {
+
         public AdicionarProdutos()
+       
         {
             InitializeComponent();
+
         }
 
         private void AdicionarProdutos_Load(object sender, EventArgs e)
@@ -53,19 +57,23 @@ namespace BacanaBurguesCrud
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             var produto = new Produto();
             var repositorio = new RepositorioDeProduto();
 
             produto.Nome = txtNome.Text;
-            produto.Preco = double.Parse(txtPreco.Text);
+            produto.Preco = decimal.Parse(txtPreco.Text);
             produto.Quantidade = int.Parse(txtQuantidade.Text);
             produto.Tipo = cbTipo.Text;
-            produto.Lucro = double.Parse(cbLucro.Text);
+            produto.Lucro = int.Parse(cbLucro.Text);
             repositorio.Salvar(produto);
             MessageBox.Show(repositorio.mensagem);
             
+        }
+        public AdicionarProdutos (Produto produto)
+        {
 
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -85,7 +93,43 @@ namespace BacanaBurguesCrud
 
         private void metroLabel5_Click(object sender, EventArgs e)
         {
+           
+        }
 
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPreco_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btExcluir_Click(object sender, EventArgs e)
+        {
+            var produto = new Produto();
+            var repositorio = new RepositorioDeProduto();
+            produto.Identificador = txtID.Text;
+            repositorio.Deletar(produto);
+            MessageBox.Show(repositorio.mensagem);
+        }
+
+        private void btAlterar_Click(object sender, EventArgs e)
+        {
+
+            var produto = new Produto();
+            var repositorio = new RepositorioDeProduto();
+
+            
+            produto.Identificador = txtID.Text;
+            produto.Nome = txtNome.Text;
+            produto.Preco = decimal.Parse(txtPreco.Text);
+            produto.Quantidade = int.Parse(txtQuantidade.Text);
+            produto.Tipo = cbTipo.Text;
+            produto.Lucro = int.Parse(cbLucro.Text);
+            repositorio.Alterar(produto);
+            MessageBox.Show(repositorio.mensagem);
         }
     }
 }

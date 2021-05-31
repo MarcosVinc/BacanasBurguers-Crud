@@ -243,6 +243,26 @@ namespace BacanaBurguesCrud.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap outline_clear_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_clear_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_content_cut_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_content_cut_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap outline_fastfood_white_36dp {
             get {
                 object obj = ResourceManager.GetObject("outline_fastfood_white_36dp", resourceCulture);
