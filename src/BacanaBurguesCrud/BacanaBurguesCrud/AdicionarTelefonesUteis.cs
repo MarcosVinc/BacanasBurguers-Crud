@@ -29,10 +29,10 @@ namespace BacanaBurguesCrud
             var _telefonesuteis = new TelefonesUteis();
             var repositorio = new RepositorioDeTelefonesUteis();
 
-            _telefonesuteis.Nome = txtNomeTelefonesUteis.Text;
-            _telefonesuteis.Telefone = txtTelefonesUteis.Text;
-            repositorio.Salvar(_telefonesuteis);
-            MessageBox.Show(repositorio.mensagem);
+                _telefonesuteis.Nome = txtNomeTelefonesUteis.Text;
+                _telefonesuteis.Telefone = txtTelefonesUteis.Text;
+                repositorio.Salvar(_telefonesuteis);
+                MessageBox.Show(repositorio.mensagem);
         }
 
         private void txtNomes(object sender, EventArgs e)
@@ -45,12 +45,12 @@ namespace BacanaBurguesCrud
             var telefone = new TelefonesUteis();
             var repositorio = new RepositorioDeTelefonesUteis();
 
+                telefone.Identificador = txtID.Text;
+                telefone.Nome = txtNomeTelefonesUteis.Text;
+                telefone.Telefone = txtTelefonesUteis.Text;
+                repositorio.Alterar(telefone);
+                MessageBox.Show(repositorio.mensagem);
 
-            telefone.Identificador = txtID.Text;
-            telefone.Nome = txtNomeTelefonesUteis.Text;
-            telefone.Telefone = txtTelefonesUteis.Text;
-            repositorio.Alterar(telefone);
-            MessageBox.Show(repositorio.mensagem);
         }
 
         private void btExcluir_Click(object sender, EventArgs e)

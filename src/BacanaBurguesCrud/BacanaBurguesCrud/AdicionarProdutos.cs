@@ -17,7 +17,7 @@ namespace BacanaBurguesCrud
     {
 
         public AdicionarProdutos()
-       
+
         {
             InitializeComponent();
 
@@ -57,20 +57,23 @@ namespace BacanaBurguesCrud
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             var produto = new Produto();
             var repositorio = new RepositorioDeProduto();
-
+            /* ValidacaoProdutos validacao = new ValidacaoProdutos();
+             var x = validacao.Validate(produto);
+            if(x.IsValid){}
+            else{}
+             */
             produto.Nome = txtNome.Text;
             produto.Preco = decimal.Parse(txtPreco.Text);
             produto.Quantidade = int.Parse(txtQuantidade.Text);
             produto.Tipo = cbTipo.Text;
             produto.Lucro = int.Parse(cbLucro.Text);
             repositorio.Salvar(produto);
-            MessageBox.Show(repositorio.mensagem);
-            
+                    
         }
-        public AdicionarProdutos (Produto produto)
+        public AdicionarProdutos(Produto produto)
         {
 
 
@@ -93,7 +96,7 @@ namespace BacanaBurguesCrud
 
         private void metroLabel5_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
@@ -121,15 +124,14 @@ namespace BacanaBurguesCrud
             var produto = new Produto();
             var repositorio = new RepositorioDeProduto();
 
-            
-            produto.Identificador = txtID.Text;
-            produto.Nome = txtNome.Text;
-            produto.Preco = decimal.Parse(txtPreco.Text);
-            produto.Quantidade = int.Parse(txtQuantidade.Text);
-            produto.Tipo = cbTipo.Text;
-            produto.Lucro = int.Parse(cbLucro.Text);
-            repositorio.Alterar(produto);
-            MessageBox.Show(repositorio.mensagem);
+               produto.Identificador = txtID.Text;
+               produto.Nome = txtNome.Text;
+               produto.Preco = decimal.Parse(txtPreco.Text);
+               produto.Quantidade = int.Parse(txtQuantidade.Text);
+               produto.Tipo = cbTipo.Text;
+               produto.Lucro = int.Parse(cbLucro.Text);
+               repositorio.Alterar(produto);
+               MessageBox.Show(repositorio.mensagem);
         }
     }
 }

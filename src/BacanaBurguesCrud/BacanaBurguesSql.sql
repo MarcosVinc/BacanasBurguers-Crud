@@ -3,7 +3,7 @@
  use BacanasBurgues
  GO
  CREATE TABLE Produtos (
-     Identificador varchar PRIMARY KEY,
+     Identificador varchar(255) PRIMARY KEY,
      Nome varchar(255),
      Tipo varchar(255),    
      Preco decimal(19,2), 
@@ -13,7 +13,7 @@ GO
 use BacanasBurgues
 GO
 CREATE TABLE Cliente (
-	Identificador varchar PRIMARY KEY,
+	Identificador varchar(255) PRIMARY KEY,
 	Nome varchar(255),
 	Endereco varchar(255),
 	Telefone varchar(255),
@@ -22,7 +22,7 @@ GO
 use BacanasBurgues
 GO
 CREATE TABLE TelefonesUteis (
-	Identificador varchar PRIMARY KEY,
+	Identificador varchar(255) PRIMARY KEY,
 	Nome varchar(255),
 	Telefone varchar(255),);
 GO

@@ -101,3 +101,5 @@ C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Deb
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\StarkbankEcdsa.dll
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\BacanaBurgues.Repositorio.dll.config
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\FluentValidation.dll
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\FluentValidation.xml
