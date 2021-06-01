@@ -16,3 +16,4 @@ C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurgues.Repositorio
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.csproj.CopyComplete
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.dll
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\obj\Debug\BacanaBurgues.Repositorio.pdb
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurgues.Repositorio\bin\Debug\BacanaBurgues.Repositorio.dll.config

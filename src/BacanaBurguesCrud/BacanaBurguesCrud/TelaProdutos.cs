@@ -66,6 +66,7 @@ namespace BacanaBurguesCrud
             var titulo = "Atualizar dados";
             f1.btAlterar.Visible = true;
             f1.btExcluir.Visible = true;
+            f1.btSalvar.Visible = false;
            /* f1.txtID.Visible = true;*/
             f1.lbTitulo.Text = titulo;
             f1.txtID.Text = this.gwProdutos.CurrentRow.Cells[0].Value.ToString();

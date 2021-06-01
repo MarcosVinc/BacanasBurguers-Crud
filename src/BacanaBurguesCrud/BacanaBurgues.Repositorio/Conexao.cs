@@ -12,7 +12,7 @@ namespace BacanaBurgues.Repositorio
         SqlConnection con = new SqlConnection();
         public Conexao() 
         {
-            con.ConnectionString = @"Data Source=DESKTOP-DL5R127;Initial Catalog=BacanasBurguer;Integrated Security=True";
+            con.ConnectionString = @"Data Source=DESKTOP-DL5R127;Initial Catalog=BacanasBurgues;Integrated Security=True";
         }
         public SqlConnection conectar () 
         {

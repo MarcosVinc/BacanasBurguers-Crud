@@ -65,6 +65,7 @@ namespace BacanaBurguesCrud
         {
             AdicionarCliente f1 = new AdicionarCliente();
             var titulo = "Atualizar dados";
+            f1.btSalvar.Visible = false;
             f1.btAlterarCliente.Visible = true;
             f1.btExcluir.Visible = true;
             /* f1.txtID.Visible = true;*/

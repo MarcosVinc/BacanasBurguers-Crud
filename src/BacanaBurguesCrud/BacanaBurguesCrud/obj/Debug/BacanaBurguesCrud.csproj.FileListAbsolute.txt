@@ -100,3 +100,4 @@ C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Deb
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\StarkbankEcdsa.dll
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\BacanaBurgues.Repositorio.dll.config

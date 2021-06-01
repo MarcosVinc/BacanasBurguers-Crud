@@ -40,7 +40,7 @@ namespace BacanaBurguesCrud
             this.txtQuantidade = new MetroFramework.Controls.MetroTextBox();
             this.cbTipo = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btSalvar = new System.Windows.Forms.Button();
             this.btExcluir = new System.Windows.Forms.Button();
             this.btAlterar = new System.Windows.Forms.Button();
             this.txtID = new System.Windows.Forms.TextBox();
@@ -246,21 +246,21 @@ namespace BacanaBurguesCrud
             this.metroLabel6.TabIndex = 13;
             this.metroLabel6.Text = "Tipo";
             // 
-            // button1
+            // btSalvar
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(441, 34);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(66, 36);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Salvar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btSalvar.Location = new System.Drawing.Point(441, 34);
+            this.btSalvar.Name = "btSalvar";
+            this.btSalvar.Size = new System.Drawing.Size(66, 36);
+            this.btSalvar.TabIndex = 15;
+            this.btSalvar.Text = "Salvar";
+            this.btSalvar.UseVisualStyleBackColor = true;
+            this.btSalvar.Click += new System.EventHandler(this.button1_Click);
             // 
             // btExcluir
             // 
             this.btExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btExcluir.Location = new System.Drawing.Point(369, 34);
+            this.btExcluir.Location = new System.Drawing.Point(441, 34);
             this.btExcluir.Name = "btExcluir";
             this.btExcluir.Size = new System.Drawing.Size(66, 36);
             this.btExcluir.TabIndex = 16;
@@ -272,7 +272,7 @@ namespace BacanaBurguesCrud
             // btAlterar
             // 
             this.btAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btAlterar.Location = new System.Drawing.Point(297, 34);
+            this.btAlterar.Location = new System.Drawing.Point(369, 34);
             this.btAlterar.Name = "btAlterar";
             this.btAlterar.Size = new System.Drawing.Size(66, 36);
             this.btAlterar.TabIndex = 17;
@@ -297,7 +297,7 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.btAlterar);
             this.Controls.Add(this.btExcluir);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btSalvar);
             this.Controls.Add(this.cbTipo);
             this.Controls.Add(this.metroLabel6);
             this.Controls.Add(this.txtQuantidade);
@@ -327,7 +327,6 @@ namespace BacanaBurguesCrud
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroLabel metroLabel6;
-        private System.Windows.Forms.Button button1;
         public MetroFramework.Controls.MetroTextBox txtNome;
         public MetroFramework.Controls.MetroTextBox txtPreco;
         public MetroFramework.Controls.MetroComboBox cbLucro;
@@ -337,5 +336,6 @@ namespace BacanaBurguesCrud
         public System.Windows.Forms.Button btAlterar;
         public System.Windows.Forms.Button btExcluir;
         public System.Windows.Forms.TextBox txtID;
+        public System.Windows.Forms.Button btSalvar;
     }
 }
