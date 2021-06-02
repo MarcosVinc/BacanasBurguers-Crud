@@ -26,6 +26,8 @@ namespace BacanaBurgues.Repositorio
             cmd.Parameters.AddWithValue("@preco", produto.Preco);
             cmd.Parameters.AddWithValue("@lucro", produto.Lucro);
 
+   
+
             //conectar com banco -- Conexao
             try
             {
@@ -65,7 +67,7 @@ namespace BacanaBurgues.Repositorio
                     x.Identificador = (string)read["Identificador"];
                     x.Nome = (string)read["Nome"];
                     x.Tipo = (string)read["Tipo"];
-                    x.Preco = ConversorDeTipo.ConvertaStringParaDecimal(read["Preco"].ToString(), 2);
+                    x.Preco = ConversorDeNumeros.ConvertaStringParaDecimal(read["Preco"].ToString(), 2);
                     x.Lucro = int.Parse(read["lucro"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
                     x.Quantidade = int.Parse(read["Quantidade"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
                     produto.Add(x);

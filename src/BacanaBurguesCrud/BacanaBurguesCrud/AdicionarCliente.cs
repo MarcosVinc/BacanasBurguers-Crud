@@ -1,6 +1,8 @@
 ﻿using BacanaBurgues.Repositorio;
 using BacanaBurgues.Repositorio.Validação;
 using BacanasBurgues.Entidades;
+using BacanasBurgues.Entidades.Ultilitarios;
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,42 +17,42 @@ namespace BacanaBurguesCrud
 {
     public partial class AdicionarCliente : MetroFramework.Forms.MetroForm
     {
+        BindingList<string> errors = new BindingList<string>();
         public AdicionarCliente()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
             var cliente = new Cliente();
             var repositorio = new RepositorioDeCliente();
-            /*ValidacaoCliente validacao = new ValidacaoCliente();
-            var x = validacao.Validate(cliente);
-            if(x.isValid){}
-            else{}*/
 
                 cliente.Nome = txtNome.Text;
                 cliente.Endereco = txtEndereco.Text;
-                cliente.Cep = int.Parse(txtCEP.Text);
+                cliente.Cep = ConversorDeNumeros.ConvertaStringParaInt(txtCEP.Text, 1);
                 cliente.Telefone = txtTelefone.Text;
-                repositorio.Salvar(cliente);
-                MessageBox.Show(repositorio.mensagem);
+
+                    ValidacaoCliente validacao = new ValidacaoCliente();
+                    ValidationResult x = validacao.Validate(cliente);
+                    if (x.IsValid == false)
+                    {
+                        foreach (ValidationFailure failure in x.Errors)
+                        {
+                            errors.Add($"{failure.PropertyName} : {failure.ErrorMessage}");
+                            MessageBox.Show($"Erro ao preencher :{failure.PropertyName}," +
+                                $"+ mensagem do erro : {failure.ErrorMessage} ");
+                        }
+                    }
+                    else
+                    {
+                        repositorio.Salvar(cliente);
+                        MessageBox.Show(repositorio.mensagem);
+                    }
+
+
         }
 
-        private void metroLabel5_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void AdicionarCliente_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btAlterarCliente_Click(object sender, EventArgs e)
         {
@@ -60,11 +62,26 @@ namespace BacanaBurguesCrud
                 cliente.Identificador = txtIDCliente.Text;
                 cliente.Nome = txtNome.Text;
                 cliente.Endereco = txtEndereco.Text;
+                cliente.Cep = ConversorDeNumeros.ConvertaStringParaInt(txtCEP.Text, 1);
                 cliente.Telefone = txtTelefone.Text;
-                cliente.Cep = int.Parse(txtCEP.Text);
-                repositorio.Alterar(cliente);
-                MessageBox.Show(repositorio.mensagem);
-        }
+
+                    ValidacaoCliente validacao = new ValidacaoCliente();
+                    ValidationResult x = validacao.Validate(cliente);
+                    if (x.IsValid == false)
+                    {
+                        foreach (ValidationFailure failure in x.Errors)
+                        {
+                            errors.Add($"{failure.PropertyName} : {failure.ErrorMessage}");
+                            MessageBox.Show($"Erro ao preencher :{failure.PropertyName}," +
+                                $"+ mensagem do erro : {failure.ErrorMessage} ");
+                        }
+                    }
+                    else
+                    {
+                        repositorio.Alterar(cliente);
+                        MessageBox.Show(repositorio.mensagem);
+                    }
+                }
 
         private void btExcluir_Click(object sender, EventArgs e)
         {

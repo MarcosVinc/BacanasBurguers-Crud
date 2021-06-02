@@ -218,7 +218,7 @@ namespace BacanaBurguesCrud
             this.lbTituloCliente.Size = new System.Drawing.Size(85, 19);
             this.lbTituloCliente.TabIndex = 22;
             this.lbTituloCliente.Text = "Novo Cliente";
-            this.lbTituloCliente.Click += new System.EventHandler(this.metroLabel5_Click);
+
             // 
             // btAlterarCliente
             // 
@@ -275,7 +275,7 @@ namespace BacanaBurguesCrud
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Style = MetroFramework.MetroColorStyle.Silver;
             this.TransparencyKey = System.Drawing.SystemColors.Info;
-            this.Load += new System.EventHandler(this.AdicionarCliente_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

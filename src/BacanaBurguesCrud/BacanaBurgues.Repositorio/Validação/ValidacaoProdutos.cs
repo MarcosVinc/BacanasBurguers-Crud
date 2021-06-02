@@ -12,11 +12,12 @@ namespace BacanaBurgues.Repositorio
     {
          public ValidacaoProdutos() 
         {
+            RuleFor(x => x.Identificador).NotNull().NotEmpty();
             RuleFor(x => x.Nome).NotNull().NotEmpty().MinimumLength(3).MaximumLength(160);
             RuleFor(x => x.Tipo).NotNull().NotEmpty();
-            RuleFor(x => x.Quantidade).NotNull().NotEmpty();
-            RuleFor(x => x.Preco).NotNull().NotEmpty();
-            RuleFor(x => x.Lucro).NotNull().NotEmpty();
+            RuleFor(x => x.Quantidade).GreaterThan(0);
+            RuleFor(x => x.Preco).GreaterThan(0).NotEmpty();
+            RuleFor(x => x.Lucro).GreaterThan(0).NotEmpty();
         }
     }
 }

@@ -17,21 +17,12 @@ namespace BacanaBurguesCrud
             InitializeComponent();
         }
 
-        private void CalcularProdutos_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form f = new BacanaBurgues();
             f.Closed += (s, args) => this.Close();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

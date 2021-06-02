@@ -54,7 +54,7 @@ namespace BacanaBurguesCrud
             this.lbTitulo.Size = new System.Drawing.Size(93, 19);
             this.lbTitulo.TabIndex = 0;
             this.lbTitulo.Text = "Novo Produto";
-            this.lbTitulo.Click += new System.EventHandler(this.metroLabel1_Click);
+
             // 
             // metroLabel2
             // 
@@ -94,8 +94,8 @@ namespace BacanaBurguesCrud
             this.txtNome.UseSelectable = true;
             this.txtNome.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtNome.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            this.txtNome.Click += new System.EventHandler(this.metroTextBox1_Click);
-            // 
+        // 
+  
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
@@ -104,7 +104,7 @@ namespace BacanaBurguesCrud
             this.metroLabel3.Size = new System.Drawing.Size(82, 19);
             this.metroLabel3.TabIndex = 4;
             this.metroLabel3.Text = "Quandidade";
-            this.metroLabel3.Click += new System.EventHandler(this.metroLabel3_Click);
+
             // 
             // txtPreco
             // 
@@ -135,7 +135,7 @@ namespace BacanaBurguesCrud
             this.txtPreco.UseSelectable = true;
             this.txtPreco.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtPreco.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            this.txtPreco.Click += new System.EventHandler(this.txtPreco_Click);
+
             // 
             // metroLabel4
             // 
@@ -145,7 +145,6 @@ namespace BacanaBurguesCrud
             this.metroLabel4.Size = new System.Drawing.Size(52, 19);
             this.metroLabel4.TabIndex = 6;
             this.metroLabel4.Text = "%Lucro";
-            this.metroLabel4.Click += new System.EventHandler(this.metroLabel4_Click);
             // 
             // cbLucro
             // 
@@ -179,7 +178,7 @@ namespace BacanaBurguesCrud
             this.cbLucro.Size = new System.Drawing.Size(121, 29);
             this.cbLucro.TabIndex = 8;
             this.cbLucro.UseSelectable = true;
-            this.cbLucro.SelectedIndexChanged += new System.EventHandler(this.metroComboBox1_SelectedIndexChanged);
+
             // 
             // metroLabel5
             // 
@@ -189,7 +188,7 @@ namespace BacanaBurguesCrud
             this.metroLabel5.Size = new System.Drawing.Size(43, 19);
             this.metroLabel5.TabIndex = 9;
             this.metroLabel5.Text = "Preço";
-            this.metroLabel5.Click += new System.EventHandler(this.metroLabel5_Click);
+
             // 
             // txtQuantidade
             // 
@@ -235,7 +234,7 @@ namespace BacanaBurguesCrud
             this.cbTipo.Size = new System.Drawing.Size(121, 29);
             this.cbTipo.TabIndex = 14;
             this.cbTipo.UseSelectable = true;
-            this.cbTipo.SelectedIndexChanged += new System.EventHandler(this.cbTipo_SelectedIndexChanged);
+
             // 
             // metroLabel6
             // 
@@ -315,7 +314,6 @@ namespace BacanaBurguesCrud
             this.Name = "AdicionarProdutos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Style = MetroFramework.MetroColorStyle.Orange;
-            this.Load += new System.EventHandler(this.AdicionarProdutos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

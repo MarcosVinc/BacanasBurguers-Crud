@@ -54,6 +54,7 @@ namespace BacanaBurguesCrud
         {
             AdicionarTelefonesUteis f1 = new AdicionarTelefonesUteis();
             var titulo = "Atualizar dados";
+            f1.btSalvar.Visible = false;
             f1.btAlterar.Visible = true;
             f1.btExcluir.Visible = true;
             /* f1.txtID.Visible = true;*/

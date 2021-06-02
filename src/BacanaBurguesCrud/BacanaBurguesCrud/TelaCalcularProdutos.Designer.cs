@@ -56,7 +56,6 @@ namespace BacanaBurguesCrud
             this.Movable = false;
             this.Name = "TelaCalcularProdutos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Load += new System.EventHandler(this.CalcularProdutos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

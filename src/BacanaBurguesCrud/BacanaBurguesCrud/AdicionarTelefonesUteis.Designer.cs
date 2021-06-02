@@ -133,7 +133,7 @@ namespace BacanaBurguesCrud
             // btExcluir
             // 
             this.btExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btExcluir.Location = new System.Drawing.Point(222, 259);
+            this.btExcluir.Location = new System.Drawing.Point(303, 259);
             this.btExcluir.Name = "btExcluir";
             this.btExcluir.Size = new System.Drawing.Size(75, 23);
             this.btExcluir.TabIndex = 5;
@@ -145,7 +145,7 @@ namespace BacanaBurguesCrud
             // btAlterar
             // 
             this.btAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btAlterar.Location = new System.Drawing.Point(141, 259);
+            this.btAlterar.Location = new System.Drawing.Point(222, 259);
             this.btAlterar.Name = "btAlterar";
             this.btAlterar.Size = new System.Drawing.Size(75, 23);
             this.btAlterar.TabIndex = 6;
@@ -200,12 +200,12 @@ namespace BacanaBurguesCrud
         #endregion
         private MetroFramework.Controls.MetroLabel Nome;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private System.Windows.Forms.Button btSalvar;
         public System.Windows.Forms.Button btExcluir;
         public System.Windows.Forms.Button btAlterar;
         public System.Windows.Forms.TextBox txtID;
         public MetroFramework.Controls.MetroTextBox txtNomeTelefonesUteis;
         public MetroFramework.Controls.MetroTextBox txtTelefonesUteis;
         public System.Windows.Forms.Label lbTitulo;
+        public System.Windows.Forms.Button btSalvar;
     }
 }

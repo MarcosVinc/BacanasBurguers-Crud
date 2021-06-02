@@ -45,7 +45,7 @@
     <Compile Include="Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TelefonesUteis.cs" />
-    <Compile Include="Ultilitarios\ConversorDeTipo.cs" />
+    <Compile Include="Ultilitarios\ConversorDeNumeros.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

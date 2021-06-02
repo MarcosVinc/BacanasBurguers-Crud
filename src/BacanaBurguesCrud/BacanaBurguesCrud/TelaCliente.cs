@@ -32,10 +32,6 @@ namespace BacanaBurguesCrud
             novaform.Show();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void TelaCliente_Load(object sender, EventArgs e)
         {
@@ -51,15 +47,6 @@ namespace BacanaBurguesCrud
             gwCliente.DataSource = produtos;
         }
 
-        private void gwCliente_AllowUserToAddRowsChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gwCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void gwCliente_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -73,8 +60,8 @@ namespace BacanaBurguesCrud
             f1.txtIDCliente.Text = this.gwCliente.CurrentRow.Cells[0].Value.ToString();
             f1.txtNome.Text = this.gwCliente.CurrentRow.Cells[1].Value.ToString();
             f1.txtEndereco.Text = this.gwCliente.CurrentRow.Cells[2].Value.ToString();
-            f1.txtCEP.Text = this.gwCliente.CurrentRow.Cells[3].Value.ToString();
-            f1.txtTelefone.Text = this.gwCliente.CurrentRow.Cells[4].Value.ToString();
+            f1.txtTelefone.Text = this.gwCliente.CurrentRow.Cells[3].Value.ToString();
+            f1.txtCEP.Text = this.gwCliente.CurrentRow.Cells[4].Value.ToString(); 
             f1.ShowDialog();
         }
     }

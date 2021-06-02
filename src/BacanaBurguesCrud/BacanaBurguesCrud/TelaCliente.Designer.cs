@@ -60,7 +60,7 @@ namespace BacanaBurguesCrud
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(59, 25);
             this.panel1.TabIndex = 7;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+
             // 
             // pictureBox1
             // 
@@ -139,9 +139,7 @@ namespace BacanaBurguesCrud
             this.gwCliente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gwCliente.Size = new System.Drawing.Size(600, 300);
             this.gwCliente.Style = MetroFramework.MetroColorStyle.Silver;
-            this.gwCliente.TabIndex = 13;
-            this.gwCliente.AllowUserToAddRowsChanged += new System.EventHandler(this.gwCliente_AllowUserToAddRowsChanged);
-            this.gwCliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gwCliente_CellContentClick);
+            this.gwCliente.TabIndex = 13;;
             this.gwCliente.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gwCliente_CellContentDoubleClick);
             // 
             // TelaCliente
