@@ -103,3 +103,5 @@ C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Deb
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\BacanaBurgues.Repositorio.dll.config
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\FluentValidation.dll
 C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\bin\Debug\FluentValidation.xml
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaLogin.resources
+C:\Users\Vinicius\source\BB Crud\src\BacanaBurguesCrud\BacanaBurguesCrud\obj\Debug\BacanaBurguesCrud.TelaCadastro.resources

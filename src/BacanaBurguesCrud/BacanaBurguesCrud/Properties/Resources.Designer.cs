@@ -223,6 +223,16 @@ namespace BacanaBurguesCrud.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap outline_add_ic_call_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("outline_add_ic_call_black_18dp", resourceCulture);
@@ -356,6 +366,16 @@ namespace BacanaBurguesCrud.Properties {
         internal static System.Drawing.Bitmap outline_storefront_white_48dp {
             get {
                 object obj = ResourceManager.GetObject("outline_storefront_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sanduiche_em_bh_imagem {
+            get {
+                object obj = ResourceManager.GetObject("sanduiche-em-bh-imagem", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

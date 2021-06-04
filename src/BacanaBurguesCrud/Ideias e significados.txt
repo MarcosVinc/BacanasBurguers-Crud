@@ -1,0 +1,14 @@
+Metodo
+
+Criar
+
+privacidade retorno Nome do metodo(z , y)
+
+instanciar
+
+Nome do metodo  variavel = new Nome do metodo();
+
+
+Chamar o metodo
+
+Nome da classe . Nome do metodo( x, y)

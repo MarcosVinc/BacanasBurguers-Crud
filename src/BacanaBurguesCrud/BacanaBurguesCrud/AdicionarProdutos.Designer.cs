@@ -54,7 +54,6 @@ namespace BacanaBurguesCrud
             this.lbTitulo.Size = new System.Drawing.Size(93, 19);
             this.lbTitulo.TabIndex = 0;
             this.lbTitulo.Text = "Novo Produto";
-
             // 
             // metroLabel2
             // 
@@ -94,8 +93,8 @@ namespace BacanaBurguesCrud
             this.txtNome.UseSelectable = true;
             this.txtNome.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtNome.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-        // 
-  
+
+            // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
@@ -104,7 +103,6 @@ namespace BacanaBurguesCrud
             this.metroLabel3.Size = new System.Drawing.Size(82, 19);
             this.metroLabel3.TabIndex = 4;
             this.metroLabel3.Text = "Quandidade";
-
             // 
             // txtPreco
             // 
@@ -135,7 +133,6 @@ namespace BacanaBurguesCrud
             this.txtPreco.UseSelectable = true;
             this.txtPreco.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtPreco.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-
             // 
             // metroLabel4
             // 
@@ -151,8 +148,6 @@ namespace BacanaBurguesCrud
             this.cbLucro.FormattingEnabled = true;
             this.cbLucro.ItemHeight = 23;
             this.cbLucro.Items.AddRange(new object[] {
-            "0",
-            "3",
             "5",
             "10",
             "15",
@@ -178,7 +173,6 @@ namespace BacanaBurguesCrud
             this.cbLucro.Size = new System.Drawing.Size(121, 29);
             this.cbLucro.TabIndex = 8;
             this.cbLucro.UseSelectable = true;
-
             // 
             // metroLabel5
             // 
@@ -188,7 +182,6 @@ namespace BacanaBurguesCrud
             this.metroLabel5.Size = new System.Drawing.Size(43, 19);
             this.metroLabel5.TabIndex = 9;
             this.metroLabel5.Text = "Preço";
-
             // 
             // txtQuantidade
             // 
@@ -234,7 +227,6 @@ namespace BacanaBurguesCrud
             this.cbTipo.Size = new System.Drawing.Size(121, 29);
             this.cbTipo.TabIndex = 14;
             this.cbTipo.UseSelectable = true;
-
             // 
             // metroLabel6
             // 

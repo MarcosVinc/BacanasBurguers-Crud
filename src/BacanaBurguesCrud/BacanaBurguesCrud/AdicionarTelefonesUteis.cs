@@ -1,5 +1,7 @@
 ﻿using BacanaBurgues.Repositorio;
+using BacanaBurgues.Repositorio.Validação;
 using BacanasBurgues.Entidades;
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +16,7 @@ namespace BacanaBurguesCrud
 {
     public partial class AdicionarTelefonesUteis : MetroFramework.Forms.MetroForm
     {
+        BindingList<string> errors = new BindingList<string>();
         public AdicionarTelefonesUteis()
         {
             InitializeComponent();
@@ -28,11 +31,26 @@ namespace BacanaBurguesCrud
         {
             var _telefonesuteis = new TelefonesUteis();
             var repositorio = new RepositorioDeTelefonesUteis();
+            ;
+            _telefonesuteis.Nome = txtNomeTelefonesUteis.Text;
+            _telefonesuteis.Telefone = txtTelefonesUteis.Text;
 
-                _telefonesuteis.Nome = txtNomeTelefonesUteis.Text;
-                _telefonesuteis.Telefone = txtTelefonesUteis.Text;
+            ValidacaoTelUteis validacao = new ValidacaoTelUteis();
+            ValidationResult x = validacao.Validate(_telefonesuteis);
+            if (x.IsValid == false)
+            {
+                foreach (ValidationFailure failure in x.Errors)
+                {
+                    errors.Add($"{failure.PropertyName} : {failure.ErrorMessage}");
+                    MessageBox.Show($"Erro ao preencher :{failure.PropertyName}," +
+                        $"+ mensagem do erro : {failure.ErrorMessage} ");
+                }
+            }
+            else
+            {
                 repositorio.Salvar(_telefonesuteis);
                 MessageBox.Show(repositorio.mensagem);
+            }
         }
 
         private void txtNomes(object sender, EventArgs e)
@@ -45,12 +63,26 @@ namespace BacanaBurguesCrud
             var telefone = new TelefonesUteis();
             var repositorio = new RepositorioDeTelefonesUteis();
 
-                telefone.Identificador = txtID.Text;
-                telefone.Nome = txtNomeTelefonesUteis.Text;
-                telefone.Telefone = txtTelefonesUteis.Text;
+            telefone.Identificador = txtID.Text;
+            telefone.Nome = txtNomeTelefonesUteis.Text;
+            telefone.Telefone = txtTelefonesUteis.Text;
+
+            ValidacaoTelUteis validacao = new ValidacaoTelUteis();
+            ValidationResult x = validacao.Validate(telefone);
+            if (x.IsValid == false)
+            {
+                foreach (ValidationFailure failure in x.Errors)
+                {
+                    errors.Add($"{failure.PropertyName} : {failure.ErrorMessage}");
+                    MessageBox.Show($"Erro ao preencher :{failure.PropertyName}," +
+                        $"+ mensagem do erro : {failure.ErrorMessage} ");
+                }
+            }
+            else
+            {
                 repositorio.Alterar(telefone);
                 MessageBox.Show(repositorio.mensagem);
-
+            }
         }
 
         private void btExcluir_Click(object sender, EventArgs e)

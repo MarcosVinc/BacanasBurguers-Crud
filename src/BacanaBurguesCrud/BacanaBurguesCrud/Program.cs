@@ -16,7 +16,7 @@ namespace BacanaBurguesCrud
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BacanaBurgues());
+            Application.Run(new TelaLogin());
         }
     }
 }

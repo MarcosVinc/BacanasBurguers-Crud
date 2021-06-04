@@ -14,7 +14,7 @@ namespace BacanaBurgues.Repositorio.Validação
         {
             RuleFor(x => x.Nome).NotNull().NotEmpty().MinimumLength(3).MaximumLength(160);
             RuleFor(x => x.Endereco).NotNull().NotEmpty().MinimumLength(3).MaximumLength(160);
-            RuleFor(x => x.Telefone).NotNull().NotEmpty().Matches("[2-9][0-9]{11}");
+            RuleFor(x => x.Telefone).NotNull().NotEmpty();
             RuleFor(x => x.Cep).NotNull().NotEmpty();
 
         }
