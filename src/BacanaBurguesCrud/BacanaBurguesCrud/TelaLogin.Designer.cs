@@ -37,8 +37,6 @@ namespace BacanaBurguesCrud
             this.btEntrar = new System.Windows.Forms.Button();
             this.btSair = new System.Windows.Forms.Button();
             this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -110,28 +108,18 @@ namespace BacanaBurguesCrud
             // 
             this.metroDateTime1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.metroDateTime1.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroDateTime1.Location = new System.Drawing.Point(565, 24);
+            this.metroDateTime1.Location = new System.Drawing.Point(205, 27);
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime1.Name = "metroDateTime1";
             this.metroDateTime1.Size = new System.Drawing.Size(93, 29);
             this.metroDateTime1.TabIndex = 9;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::BacanaBurguesCrud.Properties.Resources.sanduiche_em_bh_imagem;
-            this.pictureBox1.Location = new System.Drawing.Point(333, 144);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 320);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
             // TelaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 505);
-            this.Controls.Add(this.pictureBox1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(318, 462);
             this.Controls.Add(this.metroDateTime1);
             this.Controls.Add(this.btSair);
             this.Controls.Add(this.btEntrar);
@@ -141,12 +129,11 @@ namespace BacanaBurguesCrud
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(717, 544);
-            this.MinimumSize = new System.Drawing.Size(717, 544);
+            this.MaximumSize = new System.Drawing.Size(334, 501);
+            this.MinimumSize = new System.Drawing.Size(334, 501);
             this.Name = "TelaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaLogin";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,6 +149,5 @@ namespace BacanaBurguesCrud
         private System.Windows.Forms.Button btEntrar;
         private System.Windows.Forms.Button btSair;
         private MetroFramework.Controls.MetroDateTime metroDateTime1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
